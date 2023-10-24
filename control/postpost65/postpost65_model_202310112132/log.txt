@@ -1,0 +1,4 @@
+# 1
+noise : 0.9990
+Avg return : 17.8994
+Elapsed time : 47.45s
