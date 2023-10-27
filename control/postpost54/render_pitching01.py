@@ -22,7 +22,7 @@ def main():
     if not MOTION_ONLY:
         # 230803
         # ppo.LoadModel('best.pt')
-        ppo.LoadModel('postpost548m_start/' + 'latest.pt')
+        ppo.LoadModel('postpost54_only_str/' + 'latest.pt')
         # ppo.LoadModel('postpost54_model_202309201040/' + 'max.pt')
         # ppo.LoadModel('pitching_ball_mound_max.pt')
         pass
@@ -33,7 +33,7 @@ def main():
 
 
     ppo.env.flag_rsi(False)
-    ppo.env.reset(11.5)
+    ppo.env.reset(18.44)
     ppo.env.ref_skel.set_positions(ppo.env.ref_motion.get_q(ppo.env.current_frame))
 
     # print("motion length:", ppo.env.motion_len)

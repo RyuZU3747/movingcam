@@ -251,7 +251,7 @@ class PPO(object):
 
         self.saved = False
         # self.save_directory = self.env_name + '_' + 'model_'+time.strftime("%Y%m%d%H%M") + '/'
-        self.save_directory = self.env_name + '8m_start' + '/'
+        self.save_directory = self.env_name + '_only_str' + '/'
         if not self.saved and not os.path.exists(self.save_directory) and not visualize_only:
             os.makedirs(self.save_directory)
             self.saved = True
@@ -541,7 +541,7 @@ if __name__ == "__main__":
     if len(sys.argv) > 3:
         print("load {}".format(sys.argv[3]))
         ppo.LoadModel(sys.argv[3])
-    ppo.LoadModel('11max.pt')
+    ppo.LoadModel('18m.pt')
     # parser = argparse.ArgumentParser()
     # parser.add_argument('-m','--model',help='actor model directory')
     # args =parser.parse_args()
@@ -552,7 +552,7 @@ if __name__ == "__main__":
     steps = []
     # print('num states: {}, num actions: {}'.format(ppo.env.GetNumState(),ppo.env.GetNumAction()))
 
-    curdist = 11.
+    curdist = 18.44
 
     max_avg_steps = 0
     max_avg_reward = 0.
@@ -566,11 +566,11 @@ if __name__ == "__main__":
 
 
         print("current reward: ", _reward)
-        print("current dist: ", curdist)
+        # print("current dist: ", curdist)
         print("")
 
 
-        if _reward > 45.0:
+        if _reward > 8.0:
             curdist += 0.05
 
         steps.append(_step)

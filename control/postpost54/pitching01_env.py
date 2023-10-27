@@ -350,15 +350,16 @@ class SkateDartEnv(gym.Env):
         torque = sum(self.step_torques) / len(self.step_torques)
         r_torque = exp_reward_term(self.w_torque, self.exp_torque, torque / sqrt(len(torque)))
 
-        # reward = r_p + r_v + r_fc + r_up + r_torque + r_e
+        reward = r_p + r_v + r_fc + r_up + r_torque + r_e
 
         # r_root_ori = exp_reward_term(self.w_root_ori, self.exp_root_ori,
         #                              [1. - np.dot(self.skel.body(0).world_transform()[:3, 2], mm.unitZ())])
         # reward = (1. - self.w_root_ori) * reward + r_root_ori
-        reward = 0
-
+        reward = 0.1
+        
         # add strike reward
         dis_list = []
+        target_speed = [15., 30., 50., 70., 100., 120., 150.]
         if self.ball_released_frame < self.current_frame:
             # print("ball released!!!!===============", self.current_frame)
             # print("self.ball.com_velocity(): ", self.ball.com_velocity())
@@ -376,36 +377,36 @@ class SkateDartEnv(gym.Env):
                 else:
                     break
 
-        target_speed = [15., 30., 50., 70., 100., 120., 150.]
-
-
         if len(dis_list) > 0:
             mean_dis = np.mean(np.asarray(dis_list))
             # print("mean_dis: ", mean_dis)
             min_dis = min(dis_list)
             # print("min_dis: ", min_dis)
             r_strike = exp_reward_term(self.w_strike, self.exp_strike, min_dis)
-            reward = (1. - self.w_strike) * reward + r_strike
+            # reward = (1. - self.w_strike) * reward + r_strike
+            reward += r_strike
 
         if self.ball_released_frame < self.current_frame:
             r_ball_direction = exp_reward_term(self.w_ball_dir, self.exp_ball_dir, [1- np.dot(mm.normalize(self.ball.com_velocity()), mm.normalize(self.target_zone_pos - self.ball.com()))])
-            reward = (1. - self.w_ball_dir) * reward + r_ball_direction
-
+            # reward = (1. - self.w_ball_dir) * reward + r_ball_direction
+            # reward += r_ball_direction
+            
             #print("speed: ", self.ball.com_velocity(), self.ball.com_velocity()[2])
             #print("position: ", self.ball.com())
             ball_speed = self.ball.com_velocity()[2]
             
-            if abs(min_dis) < 6.:
+            if len(dis_list) > 0 and abs(min_dis) < 6.:
                 if ball_speed >= target_speed[0]:
                     target_speed.pop
                 r_ball_speed = exp_reward_term(self.w_ball_speed, self.exp_ball_speed, [target_speed[0]-ball_speed])
-                reward = (1. - self.w_ball_speed) * reward + r_ball_speed
+                # reward = (1. - self.w_ball_speed) * reward + r_ball_speed
 
             # print("speed: ", self.ball.com_velocity(), self.ball.com_velocity()[2])
 
             r_ball_speed = exp_reward_term(self.w_ball_speed, self.exp_ball_speed, [150-self.ball.com_velocity()[2]])
-            reward = (1. - self.w_ball_speed) * reward + r_ball_speed
-
+            # reward = (1. - self.w_ball_speed) * reward + r_ball_speed
+            # reward += r_ball_speed
+        # print(reward)
         return reward
 
     def is_done(self):
