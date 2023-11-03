@@ -355,7 +355,7 @@ class SkateDartEnv(gym.Env):
         # r_root_ori = exp_reward_term(self.w_root_ori, self.exp_root_ori,
         #                              [1. - np.dot(self.skel.body(0).world_transform()[:3, 2], mm.unitZ())])
         # reward = (1. - self.w_root_ori) * reward + r_root_ori
-        reward = 0.1
+        # reward = 0.1
         
         # add strike reward
         dis_list = []
@@ -388,8 +388,8 @@ class SkateDartEnv(gym.Env):
 
         if self.ball_released_frame < self.current_frame:
             r_ball_direction = exp_reward_term(self.w_ball_dir, self.exp_ball_dir, [1- np.dot(mm.normalize(self.ball.com_velocity()), mm.normalize(self.target_zone_pos - self.ball.com()))])
-            # reward = (1. - self.w_ball_dir) * reward + r_ball_direction
-            # reward += r_ball_direction
+            reward = (1. - self.w_ball_dir) * reward + r_ball_direction
+            reward += r_ball_direction
             
             #print("speed: ", self.ball.com_velocity(), self.ball.com_velocity()[2])
             #print("position: ", self.ball.com())
@@ -404,8 +404,8 @@ class SkateDartEnv(gym.Env):
             # print("speed: ", self.ball.com_velocity(), self.ball.com_velocity()[2])
 
             r_ball_speed = exp_reward_term(self.w_ball_speed, self.exp_ball_speed, [150-self.ball.com_velocity()[2]])
-            # reward = (1. - self.w_ball_speed) * reward + r_ball_speed
-            # reward += r_ball_speed
+            reward = (1. - self.w_ball_speed) * reward + r_ball_speed
+            reward += r_ball_speed
         # print(reward)
         return reward
 

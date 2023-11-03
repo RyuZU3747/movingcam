@@ -225,15 +225,17 @@ class DartSkelMotion(object):
             self.qs[frame][4] = 0.
             self.qs[frame][5] = 0.
 
-    def reset_root_trajectory_backflip_a(self, skel):
+    def reset_root_trajectory_backflip_a(self, skel, height):
         frame_num = len(self.qs)
 
         for frame in range(frame_num):
+            #rotate
             self.qs[frame][0] = -0.39
             self.qs[frame][1] = 0.
             self.qs[frame][2] = 0.07
+            #position
             self.qs[frame][3] = 0.
-            self.qs[frame][4] = -0.13
+            self.qs[frame][4] = height - 0.09
             self.qs[frame][5] = 0.
 
     def reset_root_trajectory_cartwheel_b(self, skel):
