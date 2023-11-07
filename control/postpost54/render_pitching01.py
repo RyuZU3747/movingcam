@@ -22,7 +22,7 @@ def main():
     if not MOTION_ONLY:
         # 230803
         # ppo.LoadModel('best.pt')
-        ppo.LoadModel('postpost54_curricu/' + 'latest.pt')
+        ppo.LoadModel('postpost54_plus_seperate1000/' + 'ball.pt')
         # ppo.LoadModel('postpost54_model_202309201040/' + 'max.pt')
         # ppo.LoadModel('pitching_ball_mound_max.pt')
         pass

@@ -1,0 +1,10 @@
+# 1
+noise : 0.9996
+Avg return : 44.3104
+Ball reward : 1.00s
+Elapsed time : 10.34s
+# 2
+noise : 1.0000
+Avg return : 44.7443
+Ball reward : 1.00s
+Elapsed time : 20.96s

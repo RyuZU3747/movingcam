@@ -1,0 +1,3925 @@
+# 1
+noise : 0.9995
+Avg return : 37.8790
+Ball reward : 1.00s
+Elapsed time : 11.68s
+# 2
+noise : 0.9993
+Avg return : 38.3749
+Ball reward : 1.00s
+Elapsed time : 23.11s
+# 3
+noise : 0.9990
+Avg return : 39.9300
+Ball reward : 1.00s
+Elapsed time : 32.24s
+# 4
+noise : 0.9988
+Avg return : 40.6884
+Ball reward : 1.00s
+Elapsed time : 43.01s
+# 5
+noise : 0.9980
+Avg return : 44.4896
+Ball reward : 1.00s
+Elapsed time : 52.06s
+# 6
+noise : 0.9971
+Avg return : 47.1863
+Ball reward : 1.00s
+Elapsed time : 62.43s
+# 7
+noise : 0.9961
+Avg return : 48.4202
+Ball reward : 1.00s
+Elapsed time : 77.46s
+# 8
+noise : 0.9954
+Avg return : 51.1634
+Ball reward : 1.00s
+Elapsed time : 91.82s
+# 9
+noise : 0.9949
+Avg return : 51.8723
+Ball reward : 1.00s
+Elapsed time : 104.36s
+# 10
+noise : 0.9939
+Avg return : 53.6418
+Ball reward : 1.00s
+Elapsed time : 114.80s
+# 11
+noise : 0.9942
+Avg return : 54.2638
+Ball reward : 1.00s
+Elapsed time : 125.42s
+# 12
+noise : 0.9932
+Avg return : 55.0154
+Ball reward : 1.00s
+Elapsed time : 136.06s
+# 13
+noise : 0.9918
+Avg return : 55.7712
+Ball reward : 1.00s
+Elapsed time : 147.90s
+# 14
+noise : 0.9912
+Avg return : 56.6867
+Ball reward : 1.00s
+Elapsed time : 157.74s
+# 15
+noise : 0.9911
+Avg return : 57.9631
+Ball reward : 1.00s
+Elapsed time : 169.26s
+# 16
+noise : 0.9914
+Avg return : 59.0332
+Ball reward : 1.00s
+Elapsed time : 181.00s
+# 17
+noise : 0.9907
+Avg return : 59.6062
+Ball reward : 1.00s
+Elapsed time : 192.70s
+# 18
+noise : 0.9902
+Avg return : 60.3709
+Ball reward : 1.00s
+Elapsed time : 204.22s
+# 19
+noise : 0.9890
+Avg return : 61.3631
+Ball reward : 1.00s
+Elapsed time : 217.15s
+# 20
+noise : 0.9874
+Avg return : 62.0033
+Ball reward : 1.00s
+Elapsed time : 231.10s
+# 21
+noise : 0.9868
+Avg return : 63.2378
+Ball reward : 1.00s
+Elapsed time : 243.11s
+# 22
+noise : 0.9863
+Avg return : 63.9670
+Ball reward : 1.00s
+Elapsed time : 255.22s
+# 23
+noise : 0.9854
+Avg return : 65.3099
+Ball reward : 1.00s
+Elapsed time : 267.50s
+# 24
+noise : 0.9855
+Avg return : 67.6878
+Ball reward : 1.00s
+Elapsed time : 279.63s
+# 25
+noise : 0.9850
+Avg return : 70.2462
+Ball reward : 1.00s
+Elapsed time : 292.81s
+# 26
+noise : 0.9838
+Avg return : 73.2383
+Ball reward : 1.00s
+Elapsed time : 306.08s
+# 27
+noise : 0.9834
+Avg return : 74.9104
+Ball reward : 4.59s
+Elapsed time : 318.87s
+# 28
+noise : 0.9825
+Avg return : 77.2185
+Ball reward : 2.48s
+Elapsed time : 331.77s
+# 29
+noise : 0.9823
+Avg return : 77.8343
+Ball reward : 4.81s
+Elapsed time : 345.42s
+# 30
+noise : 0.9808
+Avg return : 78.4684
+Ball reward : 4.71s
+Elapsed time : 358.94s
+# 31
+noise : 0.9801
+Avg return : 80.5486
+Ball reward : 4.89s
+Elapsed time : 371.97s
+# 32
+noise : 0.9802
+Avg return : 81.8310
+Ball reward : 4.98s
+Elapsed time : 384.21s
+# 33
+noise : 0.9794
+Avg return : 81.5448
+Ball reward : 4.78s
+Elapsed time : 396.64s
+# 34
+noise : 0.9788
+Avg return : 82.5916
+Ball reward : 5.00s
+Elapsed time : 410.62s
+# 35
+noise : 0.9787
+Avg return : 82.9912
+Ball reward : 4.95s
+Elapsed time : 424.77s
+# 36
+noise : 0.9780
+Avg return : 84.9646
+Ball reward : 4.84s
+Elapsed time : 438.01s
+# 37
+noise : 0.9768
+Avg return : 83.9799
+Ball reward : 4.76s
+Elapsed time : 451.20s
+# 38
+noise : 0.9768
+Avg return : 84.8306
+Ball reward : 4.95s
+Elapsed time : 464.07s
+# 39
+noise : 0.9769
+Avg return : 84.5110
+Ball reward : 4.52s
+Elapsed time : 477.41s
+# 40
+noise : 0.9768
+Avg return : 84.7001
+Ball reward : 4.67s
+Elapsed time : 489.33s
+# 41
+noise : 0.9764
+Avg return : 84.5085
+Ball reward : 5.00s
+Elapsed time : 502.55s
+# 42
+noise : 0.9753
+Avg return : 86.2648
+Ball reward : 4.76s
+Elapsed time : 515.51s
+# 43
+noise : 0.9750
+Avg return : 86.7903
+Ball reward : 4.90s
+Elapsed time : 529.37s
+# 44
+noise : 0.9747
+Avg return : 86.4599
+Ball reward : 4.90s
+Elapsed time : 542.57s
+# 45
+noise : 0.9741
+Avg return : 86.7244
+Ball reward : 4.15s
+Elapsed time : 556.65s
+# 46
+noise : 0.9744
+Avg return : 86.7859
+Ball reward : 4.99s
+Elapsed time : 575.45s
+# 47
+noise : 0.9742
+Avg return : 86.1261
+Ball reward : 4.95s
+Elapsed time : 590.53s
+# 48
+noise : 0.9740
+Avg return : 86.0597
+Ball reward : 3.15s
+Elapsed time : 605.84s
+# 49
+noise : 0.9736
+Avg return : 86.6643
+Ball reward : 4.62s
+Elapsed time : 619.41s
+# 50
+noise : 0.9739
+Avg return : 86.3606
+Ball reward : 4.95s
+Elapsed time : 633.10s
+# 51
+noise : 0.9736
+Avg return : 87.1617
+Ball reward : 4.86s
+Elapsed time : 646.04s
+# 52
+noise : 0.9734
+Avg return : 86.0423
+Ball reward : 4.82s
+Elapsed time : 659.92s
+# 53
+noise : 0.9737
+Avg return : 87.7981
+Ball reward : 4.99s
+Elapsed time : 673.94s
+# 54
+noise : 0.9736
+Avg return : 87.3061
+Ball reward : 4.91s
+Elapsed time : 688.17s
+# 55
+noise : 0.9724
+Avg return : 87.2645
+Ball reward : 4.84s
+Elapsed time : 702.10s
+# 56
+noise : 0.9719
+Avg return : 87.3186
+Ball reward : 5.00s
+Elapsed time : 715.39s
+# 57
+noise : 0.9718
+Avg return : 88.1034
+Ball reward : 4.91s
+Elapsed time : 729.04s
+# 58
+noise : 0.9707
+Avg return : 87.1395
+Ball reward : 3.29s
+Elapsed time : 742.89s
+# 59
+noise : 0.9694
+Avg return : 88.0084
+Ball reward : 5.00s
+Elapsed time : 757.04s
+# 60
+noise : 0.9680
+Avg return : 86.8595
+Ball reward : 4.99s
+Elapsed time : 771.59s
+# 61
+noise : 0.9681
+Avg return : 87.9230
+Ball reward : 4.99s
+Elapsed time : 786.59s
+# 62
+noise : 0.9683
+Avg return : 88.2141
+Ball reward : 4.78s
+Elapsed time : 800.72s
+# 63
+noise : 0.9683
+Avg return : 87.9216
+Ball reward : 4.93s
+Elapsed time : 815.75s
+# 64
+noise : 0.9677
+Avg return : 88.7854
+Ball reward : 4.73s
+Elapsed time : 829.25s
+# 65
+noise : 0.9676
+Avg return : 88.3086
+Ball reward : 5.00s
+Elapsed time : 843.30s
+# 66
+noise : 0.9671
+Avg return : 89.4911
+Ball reward : 4.83s
+Elapsed time : 858.35s
+# 67
+noise : 0.9662
+Avg return : 88.4381
+Ball reward : 4.95s
+Elapsed time : 872.47s
+# 68
+noise : 0.9654
+Avg return : 87.3907
+Ball reward : 4.84s
+Elapsed time : 886.99s
+# 69
+noise : 0.9658
+Avg return : 89.8183
+Ball reward : 4.90s
+Elapsed time : 901.36s
+# 70
+noise : 0.9665
+Avg return : 89.4506
+Ball reward : 1.04s
+Elapsed time : 915.38s
+# 71
+noise : 0.9672
+Avg return : 88.6377
+Ball reward : 4.95s
+Elapsed time : 928.67s
+# 72
+noise : 0.9659
+Avg return : 88.8071
+Ball reward : 5.00s
+Elapsed time : 941.74s
+# 73
+noise : 0.9654
+Avg return : 88.6969
+Ball reward : 4.98s
+Elapsed time : 955.75s
+# 74
+noise : 0.9646
+Avg return : 88.7095
+Ball reward : 4.97s
+Elapsed time : 970.54s
+# 75
+noise : 0.9644
+Avg return : 89.6801
+Ball reward : 4.21s
+Elapsed time : 986.97s
+# 76
+noise : 0.9632
+Avg return : 90.3191
+Ball reward : 4.68s
+Elapsed time : 1002.48s
+# 77
+noise : 0.9621
+Avg return : 90.3175
+Ball reward : 4.93s
+Elapsed time : 1018.54s
+# 78
+noise : 0.9623
+Avg return : 90.6791
+Ball reward : 4.91s
+Elapsed time : 1034.47s
+# 79
+noise : 0.9611
+Avg return : 90.5618
+Ball reward : 4.77s
+Elapsed time : 1050.63s
+# 80
+noise : 0.9600
+Avg return : 90.8679
+Ball reward : 4.86s
+Elapsed time : 1066.76s
+# 81
+noise : 0.9593
+Avg return : 92.0024
+Ball reward : 4.96s
+Elapsed time : 1083.08s
+# 82
+noise : 0.9590
+Avg return : 92.8322
+Ball reward : 4.88s
+Elapsed time : 1099.20s
+# 83
+noise : 0.9591
+Avg return : 92.5077
+Ball reward : 4.73s
+Elapsed time : 1114.95s
+# 84
+noise : 0.9579
+Avg return : 94.5324
+Ball reward : 4.96s
+Elapsed time : 1131.12s
+# 85
+noise : 0.9572
+Avg return : 96.3861
+Ball reward : 4.44s
+Elapsed time : 1147.48s
+# 86
+noise : 0.9575
+Avg return : 98.2653
+Ball reward : 4.81s
+Elapsed time : 1163.86s
+# 87
+noise : 0.9572
+Avg return : 96.3237
+Ball reward : 1.13s
+Elapsed time : 1179.95s
+# 88
+noise : 0.9566
+Avg return : 95.2943
+Ball reward : 4.40s
+Elapsed time : 1195.98s
+# 89
+noise : 0.9569
+Avg return : 103.1589
+Ball reward : 4.81s
+Elapsed time : 1212.62s
+# 90
+noise : 0.9567
+Avg return : 99.0995
+Ball reward : 4.57s
+Elapsed time : 1229.14s
+# 91
+noise : 0.9564
+Avg return : 102.7900
+Ball reward : 5.00s
+Elapsed time : 1245.97s
+# 92
+noise : 0.9552
+Avg return : 102.3998
+Ball reward : 5.00s
+Elapsed time : 1262.57s
+# 93
+noise : 0.9543
+Avg return : 105.1763
+Ball reward : 2.58s
+Elapsed time : 1279.68s
+# 94
+noise : 0.9537
+Avg return : 108.1853
+Ball reward : 4.19s
+Elapsed time : 1296.54s
+# 95
+noise : 0.9542
+Avg return : 108.0557
+Ball reward : 4.97s
+Elapsed time : 1314.09s
+# 96
+noise : 0.9540
+Avg return : 107.5579
+Ball reward : 1.00s
+Elapsed time : 1331.30s
+# 97
+noise : 0.9546
+Avg return : 110.9786
+Ball reward : 1.54s
+Elapsed time : 1348.23s
+# 98
+noise : 0.9547
+Avg return : 107.2887
+Ball reward : 3.95s
+Elapsed time : 1365.41s
+# 99
+noise : 0.9547
+Avg return : 108.6400
+Ball reward : 4.86s
+Elapsed time : 1382.14s
+# 100
+noise : 0.9543
+Avg return : 113.0464
+Ball reward : 1.02s
+Elapsed time : 1399.43s
+# 101
+noise : 0.9538
+Avg return : 110.8431
+Ball reward : 5.00s
+Elapsed time : 1417.35s
+# 102
+noise : 0.9529
+Avg return : 112.0411
+Ball reward : 2.72s
+Elapsed time : 1434.33s
+# 103
+noise : 0.9523
+Avg return : 117.8083
+Ball reward : 4.33s
+Elapsed time : 1451.89s
+# 104
+noise : 0.9516
+Avg return : 115.3477
+Ball reward : 3.98s
+Elapsed time : 1469.25s
+# 105
+noise : 0.9515
+Avg return : 117.5766
+Ball reward : 3.11s
+Elapsed time : 1486.66s
+# 106
+noise : 0.9505
+Avg return : 115.7272
+Ball reward : 3.86s
+Elapsed time : 1504.48s
+# 107
+noise : 0.9491
+Avg return : 113.6462
+Ball reward : 4.89s
+Elapsed time : 1521.92s
+# 108
+noise : 0.9484
+Avg return : 115.7546
+Ball reward : 1.03s
+Elapsed time : 1538.84s
+# 109
+noise : 0.9483
+Avg return : 115.0284
+Ball reward : 4.94s
+Elapsed time : 1555.98s
+# 110
+noise : 0.9480
+Avg return : 118.6694
+Ball reward : 1.00s
+Elapsed time : 1573.40s
+# 111
+noise : 0.9485
+Avg return : 120.8902
+Ball reward : 3.64s
+Elapsed time : 1591.33s
+# 112
+noise : 0.9483
+Avg return : 116.4659
+Ball reward : 4.60s
+Elapsed time : 1608.96s
+# 113
+noise : 0.9484
+Avg return : 120.9078
+Ball reward : 5.00s
+Elapsed time : 1627.14s
+# 114
+noise : 0.9471
+Avg return : 119.1802
+Ball reward : 4.93s
+Elapsed time : 1644.81s
+# 115
+noise : 0.9465
+Avg return : 122.5979
+Ball reward : 4.47s
+Elapsed time : 1662.90s
+# 116
+noise : 0.9469
+Avg return : 119.9319
+Ball reward : 4.89s
+Elapsed time : 1680.74s
+# 117
+noise : 0.9464
+Avg return : 121.2562
+Ball reward : 4.43s
+Elapsed time : 1698.35s
+# 118
+noise : 0.9460
+Avg return : 122.7379
+Ball reward : 3.91s
+Elapsed time : 1716.43s
+# 119
+noise : 0.9455
+Avg return : 124.6470
+Ball reward : 4.95s
+Elapsed time : 1734.94s
+# 120
+noise : 0.9453
+Avg return : 125.1682
+Ball reward : 4.88s
+Elapsed time : 1752.81s
+# 121
+noise : 0.9450
+Avg return : 124.0550
+Ball reward : 4.95s
+Elapsed time : 1771.54s
+# 122
+noise : 0.9448
+Avg return : 124.6755
+Ball reward : 4.86s
+Elapsed time : 1790.12s
+# 123
+noise : 0.9445
+Avg return : 126.4992
+Ball reward : 4.46s
+Elapsed time : 1808.63s
+# 124
+noise : 0.9440
+Avg return : 120.6906
+Ball reward : 2.95s
+Elapsed time : 1826.89s
+# 125
+noise : 0.9442
+Avg return : 127.9918
+Ball reward : 2.98s
+Elapsed time : 1844.81s
+# 126
+noise : 0.9438
+Avg return : 128.0732
+Ball reward : 4.95s
+Elapsed time : 1863.20s
+# 127
+noise : 0.9432
+Avg return : 122.4573
+Ball reward : 1.01s
+Elapsed time : 1881.40s
+# 128
+noise : 0.9428
+Avg return : 127.8494
+Ball reward : 4.17s
+Elapsed time : 1899.98s
+# 129
+noise : 0.9420
+Avg return : 125.5476
+Ball reward : 4.83s
+Elapsed time : 1917.81s
+# 130
+noise : 0.9406
+Avg return : 128.1740
+Ball reward : 5.00s
+Elapsed time : 1935.97s
+# 131
+noise : 0.9407
+Avg return : 126.8171
+Ball reward : 1.00s
+Elapsed time : 1954.41s
+# 132
+noise : 0.9398
+Avg return : 125.3649
+Ball reward : 3.70s
+Elapsed time : 1972.60s
+# 133
+noise : 0.9388
+Avg return : 130.9274
+Ball reward : 4.13s
+Elapsed time : 1990.89s
+# 134
+noise : 0.9373
+Avg return : 130.2577
+Ball reward : 5.88s
+Elapsed time : 2009.79s
+# 135
+noise : 0.9357
+Avg return : 129.9132
+Ball reward : 1.10s
+Elapsed time : 2029.14s
+# 136
+noise : 0.9348
+Avg return : 126.9363
+Ball reward : 3.09s
+Elapsed time : 2050.65s
+# 137
+noise : 0.9344
+Avg return : 130.5858
+Ball reward : 5.69s
+Elapsed time : 2069.69s
+# 138
+noise : 0.9337
+Avg return : 133.3218
+Ball reward : 4.99s
+Elapsed time : 2088.33s
+# 139
+noise : 0.9330
+Avg return : 134.0137
+Ball reward : 3.48s
+Elapsed time : 2107.34s
+# 140
+noise : 0.9328
+Avg return : 134.7467
+Ball reward : 3.48s
+Elapsed time : 2126.36s
+# 141
+noise : 0.9326
+Avg return : 133.6547
+Ball reward : 1.88s
+Elapsed time : 2144.87s
+# 142
+noise : 0.9311
+Avg return : 130.7768
+Ball reward : 1.50s
+Elapsed time : 2163.46s
+# 143
+noise : 0.9299
+Avg return : 128.7241
+Ball reward : 4.72s
+Elapsed time : 2181.51s
+# 144
+noise : 0.9296
+Avg return : 133.3101
+Ball reward : 3.49s
+Elapsed time : 2199.69s
+# 145
+noise : 0.9298
+Avg return : 135.3354
+Ball reward : 4.99s
+Elapsed time : 2218.64s
+# 146
+noise : 0.9290
+Avg return : 135.6386
+Ball reward : 1.17s
+Elapsed time : 2236.96s
+# 147
+noise : 0.9294
+Avg return : 134.1458
+Ball reward : 4.78s
+Elapsed time : 2254.14s
+# 148
+noise : 0.9298
+Avg return : 134.3016
+Ball reward : 5.00s
+Elapsed time : 2271.10s
+# 149
+noise : 0.9292
+Avg return : 134.8977
+Ball reward : 1.30s
+Elapsed time : 2288.05s
+# 150
+noise : 0.9300
+Avg return : 135.8224
+Ball reward : 4.84s
+Elapsed time : 2306.49s
+# 151
+noise : 0.9291
+Avg return : 136.0555
+Ball reward : 1.00s
+Elapsed time : 2324.91s
+# 152
+noise : 0.9288
+Avg return : 137.8539
+Ball reward : 1.00s
+Elapsed time : 2342.01s
+# 153
+noise : 0.9281
+Avg return : 131.1032
+Ball reward : 4.80s
+Elapsed time : 2359.81s
+# 154
+noise : 0.9275
+Avg return : 137.8967
+Ball reward : 3.58s
+Elapsed time : 2378.36s
+# 155
+noise : 0.9264
+Avg return : 135.1273
+Ball reward : 3.37s
+Elapsed time : 2396.29s
+# 156
+noise : 0.9260
+Avg return : 140.2804
+Ball reward : 1.00s
+Elapsed time : 2414.38s
+# 157
+noise : 0.9257
+Avg return : 139.5763
+Ball reward : 4.03s
+Elapsed time : 2433.72s
+# 158
+noise : 0.9253
+Avg return : 139.8184
+Ball reward : 1.00s
+Elapsed time : 2453.10s
+# 159
+noise : 0.9248
+Avg return : 139.2753
+Ball reward : 4.87s
+Elapsed time : 2472.50s
+# 160
+noise : 0.9241
+Avg return : 141.5914
+Ball reward : 4.01s
+Elapsed time : 2491.83s
+# 161
+noise : 0.9242
+Avg return : 138.3106
+Ball reward : 1.01s
+Elapsed time : 2511.09s
+# 162
+noise : 0.9234
+Avg return : 140.8016
+Ball reward : 4.59s
+Elapsed time : 2530.10s
+# 163
+noise : 0.9232
+Avg return : 139.9090
+Ball reward : 5.06s
+Elapsed time : 2549.55s
+# 164
+noise : 0.9229
+Avg return : 140.1929
+Ball reward : 4.73s
+Elapsed time : 2569.22s
+# 165
+noise : 0.9227
+Avg return : 142.0172
+Ball reward : 5.15s
+Elapsed time : 2588.81s
+# 166
+noise : 0.9226
+Avg return : 140.7268
+Ball reward : 1.38s
+Elapsed time : 2608.54s
+# 167
+noise : 0.9220
+Avg return : 141.1015
+Ball reward : 1.42s
+Elapsed time : 2628.00s
+# 168
+noise : 0.9222
+Avg return : 140.6222
+Ball reward : 4.89s
+Elapsed time : 2647.21s
+# 169
+noise : 0.9221
+Avg return : 141.6267
+Ball reward : 4.04s
+Elapsed time : 2666.87s
+# 170
+noise : 0.9214
+Avg return : 142.9042
+Ball reward : 4.27s
+Elapsed time : 2686.54s
+# 171
+noise : 0.9205
+Avg return : 141.3754
+Ball reward : 2.99s
+Elapsed time : 2705.51s
+# 172
+noise : 0.9206
+Avg return : 142.2748
+Ball reward : 1.72s
+Elapsed time : 2724.86s
+# 173
+noise : 0.9195
+Avg return : 143.7733
+Ball reward : 1.00s
+Elapsed time : 2744.53s
+# 174
+noise : 0.9192
+Avg return : 137.7523
+Ball reward : 1.84s
+Elapsed time : 2763.92s
+# 175
+noise : 0.9194
+Avg return : 140.9111
+Ball reward : 5.14s
+Elapsed time : 2783.34s
+# 176
+noise : 0.9196
+Avg return : 146.6189
+Ball reward : 4.54s
+Elapsed time : 2802.82s
+# 177
+noise : 0.9190
+Avg return : 148.1861
+Ball reward : 4.85s
+Elapsed time : 2822.86s
+# 178
+noise : 0.9191
+Avg return : 148.4978
+Ball reward : 4.91s
+Elapsed time : 2842.38s
+# 179
+noise : 0.9181
+Avg return : 144.2793
+Ball reward : 4.94s
+Elapsed time : 2862.43s
+# 180
+noise : 0.9178
+Avg return : 147.9152
+Ball reward : 4.35s
+Elapsed time : 2882.28s
+# 181
+noise : 0.9172
+Avg return : 145.7979
+Ball reward : 4.73s
+Elapsed time : 2902.15s
+# 182
+noise : 0.9169
+Avg return : 142.9148
+Ball reward : 2.29s
+Elapsed time : 2922.02s
+# 183
+noise : 0.9164
+Avg return : 148.5929
+Ball reward : 2.22s
+Elapsed time : 2941.96s
+# 184
+noise : 0.9166
+Avg return : 143.3448
+Ball reward : 4.11s
+Elapsed time : 2961.11s
+# 185
+noise : 0.9161
+Avg return : 144.1591
+Ball reward : 4.07s
+Elapsed time : 2981.07s
+# 186
+noise : 0.9164
+Avg return : 148.6199
+Ball reward : 4.87s
+Elapsed time : 3000.80s
+# 187
+noise : 0.9159
+Avg return : 146.5184
+Ball reward : 5.72s
+Elapsed time : 3019.96s
+# 188
+noise : 0.9144
+Avg return : 148.1216
+Ball reward : 3.36s
+Elapsed time : 3039.82s
+# 189
+noise : 0.9140
+Avg return : 147.5276
+Ball reward : 2.47s
+Elapsed time : 3059.61s
+# 190
+noise : 0.9144
+Avg return : 151.8998
+Ball reward : 4.79s
+Elapsed time : 3079.02s
+# 191
+noise : 0.9135
+Avg return : 151.8893
+Ball reward : 2.12s
+Elapsed time : 3098.62s
+# 192
+noise : 0.9132
+Avg return : 152.1620
+Ball reward : 4.70s
+Elapsed time : 3118.20s
+# 193
+noise : 0.9133
+Avg return : 152.2629
+Ball reward : 4.88s
+Elapsed time : 3138.57s
+# 194
+noise : 0.9127
+Avg return : 152.8061
+Ball reward : 3.32s
+Elapsed time : 3158.25s
+# 195
+noise : 0.9125
+Avg return : 150.3591
+Ball reward : 3.60s
+Elapsed time : 3177.95s
+# 196
+noise : 0.9113
+Avg return : 152.0792
+Ball reward : 4.60s
+Elapsed time : 3197.33s
+# 197
+noise : 0.9112
+Avg return : 151.4665
+Ball reward : 3.96s
+Elapsed time : 3217.14s
+# 198
+noise : 0.9107
+Avg return : 157.9942
+Ball reward : 2.61s
+Elapsed time : 3238.94s
+# 199
+noise : 0.9094
+Avg return : 152.8485
+Ball reward : 4.56s
+Elapsed time : 3259.29s
+# 200
+noise : 0.9090
+Avg return : 157.2571
+Ball reward : 4.98s
+Elapsed time : 3279.97s
+# 201
+noise : 0.9085
+Avg return : 156.3585
+Ball reward : 4.50s
+Elapsed time : 3300.54s
+# 202
+noise : 0.9077
+Avg return : 151.7283
+Ball reward : 4.81s
+Elapsed time : 3320.52s
+# 203
+noise : 0.9071
+Avg return : 156.8739
+Ball reward : 3.74s
+Elapsed time : 3340.25s
+# 204
+noise : 0.9062
+Avg return : 155.5784
+Ball reward : 3.44s
+Elapsed time : 3360.40s
+# 205
+noise : 0.9049
+Avg return : 154.4939
+Ball reward : 4.51s
+Elapsed time : 3380.77s
+# 206
+noise : 0.9044
+Avg return : 157.0261
+Ball reward : 4.95s
+Elapsed time : 3401.64s
+# 207
+noise : 0.9053
+Avg return : 155.7745
+Ball reward : 1.90s
+Elapsed time : 3421.97s
+# 208
+noise : 0.9051
+Avg return : 156.2734
+Ball reward : 3.42s
+Elapsed time : 3442.71s
+# 209
+noise : 0.9040
+Avg return : 158.6416
+Ball reward : 4.73s
+Elapsed time : 3462.95s
+# 210
+noise : 0.9042
+Avg return : 154.0078
+Ball reward : 4.89s
+Elapsed time : 3483.48s
+# 211
+noise : 0.9046
+Avg return : 156.1731
+Ball reward : 4.56s
+Elapsed time : 3503.23s
+# 212
+noise : 0.9036
+Avg return : 152.6134
+Ball reward : 4.85s
+Elapsed time : 3523.52s
+# 213
+noise : 0.9029
+Avg return : 157.7746
+Ball reward : 3.72s
+Elapsed time : 3543.41s
+# 214
+noise : 0.9022
+Avg return : 151.8667
+Ball reward : 5.27s
+Elapsed time : 3563.27s
+# 215
+noise : 0.9025
+Avg return : 159.1008
+Ball reward : 4.12s
+Elapsed time : 3583.91s
+# 216
+noise : 0.9021
+Avg return : 156.1571
+Ball reward : 4.93s
+Elapsed time : 3604.58s
+# 217
+noise : 0.9018
+Avg return : 156.6259
+Ball reward : 4.57s
+Elapsed time : 3624.91s
+# 218
+noise : 0.9011
+Avg return : 158.9601
+Ball reward : 5.18s
+Elapsed time : 3645.22s
+# 219
+noise : 0.9009
+Avg return : 160.2681
+Ball reward : 3.23s
+Elapsed time : 3665.89s
+# 220
+noise : 0.9002
+Avg return : 156.4851
+Ball reward : 4.99s
+Elapsed time : 3685.44s
+# 221
+noise : 0.8994
+Avg return : 159.1236
+Ball reward : 4.99s
+Elapsed time : 3704.09s
+# 222
+noise : 0.8988
+Avg return : 161.2804
+Ball reward : 4.83s
+Elapsed time : 3723.10s
+# 223
+noise : 0.8985
+Avg return : 158.9671
+Ball reward : 1.00s
+Elapsed time : 3742.01s
+# 224
+noise : 0.8974
+Avg return : 158.4584
+Ball reward : 4.94s
+Elapsed time : 3762.97s
+# 225
+noise : 0.8963
+Avg return : 157.6619
+Ball reward : 4.89s
+Elapsed time : 3782.96s
+# 226
+noise : 0.8949
+Avg return : 159.9226
+Ball reward : 4.97s
+Elapsed time : 3802.71s
+# 227
+noise : 0.8938
+Avg return : 158.5560
+Ball reward : 4.81s
+Elapsed time : 3821.68s
+# 228
+noise : 0.8937
+Avg return : 162.7508
+Ball reward : 3.70s
+Elapsed time : 3839.73s
+# 229
+noise : 0.8929
+Avg return : 156.0636
+Ball reward : 1.00s
+Elapsed time : 3857.91s
+# 230
+noise : 0.8924
+Avg return : 159.6067
+Ball reward : 4.85s
+Elapsed time : 3876.11s
+# 231
+noise : 0.8921
+Avg return : 160.9123
+Ball reward : 5.00s
+Elapsed time : 3895.40s
+# 232
+noise : 0.8918
+Avg return : 160.5788
+Ball reward : 4.49s
+Elapsed time : 3914.69s
+# 233
+noise : 0.8913
+Avg return : 163.4664
+Ball reward : 4.90s
+Elapsed time : 3934.90s
+# 234
+noise : 0.8903
+Avg return : 160.2174
+Ball reward : 3.74s
+Elapsed time : 3954.67s
+# 235
+noise : 0.8892
+Avg return : 162.9567
+Ball reward : 4.49s
+Elapsed time : 3974.83s
+# 236
+noise : 0.8886
+Avg return : 164.5477
+Ball reward : 1.00s
+Elapsed time : 3994.54s
+# 237
+noise : 0.8887
+Avg return : 161.4139
+Ball reward : 1.00s
+Elapsed time : 4014.02s
+# 238
+noise : 0.8877
+Avg return : 160.9362
+Ball reward : 1.07s
+Elapsed time : 4033.64s
+# 239
+noise : 0.8872
+Avg return : 162.3390
+Ball reward : 4.36s
+Elapsed time : 4053.73s
+# 240
+noise : 0.8864
+Avg return : 167.1892
+Ball reward : 4.13s
+Elapsed time : 4073.91s
+# 241
+noise : 0.8850
+Avg return : 163.8249
+Ball reward : 5.42s
+Elapsed time : 4093.94s
+# 242
+noise : 0.8846
+Avg return : 162.0126
+Ball reward : 2.02s
+Elapsed time : 4113.80s
+# 243
+noise : 0.8847
+Avg return : 158.8384
+Ball reward : 1.27s
+Elapsed time : 4133.84s
+# 244
+noise : 0.8841
+Avg return : 166.1408
+Ball reward : 4.16s
+Elapsed time : 4154.19s
+# 245
+noise : 0.8833
+Avg return : 164.3803
+Ball reward : 4.86s
+Elapsed time : 4174.26s
+# 246
+noise : 0.8825
+Avg return : 166.3135
+Ball reward : 5.02s
+Elapsed time : 4194.83s
+# 247
+noise : 0.8819
+Avg return : 169.5323
+Ball reward : 4.97s
+Elapsed time : 4214.94s
+# 248
+noise : 0.8811
+Avg return : 163.7907
+Ball reward : 5.00s
+Elapsed time : 4235.36s
+# 249
+noise : 0.8803
+Avg return : 166.3335
+Ball reward : 3.06s
+Elapsed time : 4255.64s
+# 250
+noise : 0.8798
+Avg return : 159.6617
+Ball reward : 2.37s
+Elapsed time : 4274.90s
+# 251
+noise : 0.8797
+Avg return : 163.6624
+Ball reward : 2.59s
+Elapsed time : 4294.64s
+# 252
+noise : 0.8798
+Avg return : 164.3328
+Ball reward : 2.18s
+Elapsed time : 4314.23s
+# 253
+noise : 0.8789
+Avg return : 164.2681
+Ball reward : 4.97s
+Elapsed time : 4333.95s
+# 254
+noise : 0.8781
+Avg return : 165.9624
+Ball reward : 4.97s
+Elapsed time : 4353.59s
+# 255
+noise : 0.8774
+Avg return : 168.4265
+Ball reward : 5.02s
+Elapsed time : 4373.73s
+# 256
+noise : 0.8770
+Avg return : 166.7387
+Ball reward : 4.54s
+Elapsed time : 4393.36s
+# 257
+noise : 0.8776
+Avg return : 169.7887
+Ball reward : 1.93s
+Elapsed time : 4413.75s
+# 258
+noise : 0.8774
+Avg return : 167.5223
+Ball reward : 4.97s
+Elapsed time : 4434.23s
+# 259
+noise : 0.8766
+Avg return : 171.7816
+Ball reward : 3.84s
+Elapsed time : 4454.34s
+# 260
+noise : 0.8758
+Avg return : 170.8936
+Ball reward : 2.60s
+Elapsed time : 4475.00s
+# 261
+noise : 0.8755
+Avg return : 169.7046
+Ball reward : 2.01s
+Elapsed time : 4494.41s
+# 262
+noise : 0.8748
+Avg return : 167.9684
+Ball reward : 2.32s
+Elapsed time : 4514.02s
+# 263
+noise : 0.8745
+Avg return : 168.5760
+Ball reward : 4.45s
+Elapsed time : 4533.52s
+# 264
+noise : 0.8738
+Avg return : 167.3831
+Ball reward : 4.46s
+Elapsed time : 4553.63s
+# 265
+noise : 0.8735
+Avg return : 172.6909
+Ball reward : 4.83s
+Elapsed time : 4573.39s
+# 266
+noise : 0.8724
+Avg return : 168.2585
+Ball reward : 3.63s
+Elapsed time : 4593.47s
+# 267
+noise : 0.8723
+Avg return : 169.6368
+Ball reward : 3.92s
+Elapsed time : 4613.90s
+# 268
+noise : 0.8732
+Avg return : 170.7269
+Ball reward : 4.98s
+Elapsed time : 4633.39s
+# 269
+noise : 0.8725
+Avg return : 169.2598
+Ball reward : 3.36s
+Elapsed time : 4653.27s
+# 270
+noise : 0.8715
+Avg return : 170.2938
+Ball reward : 4.98s
+Elapsed time : 4673.22s
+# 271
+noise : 0.8710
+Avg return : 172.3300
+Ball reward : 3.09s
+Elapsed time : 4693.80s
+# 272
+noise : 0.8703
+Avg return : 167.5739
+Ball reward : 4.96s
+Elapsed time : 4713.46s
+# 273
+noise : 0.8699
+Avg return : 171.6639
+Ball reward : 4.49s
+Elapsed time : 4733.76s
+# 274
+noise : 0.8701
+Avg return : 171.8590
+Ball reward : 4.66s
+Elapsed time : 4754.78s
+# 275
+noise : 0.8699
+Avg return : 172.8390
+Ball reward : 2.11s
+Elapsed time : 4775.60s
+# 276
+noise : 0.8688
+Avg return : 174.1984
+Ball reward : 5.00s
+Elapsed time : 4797.42s
+# 277
+noise : 0.8686
+Avg return : 171.4580
+Ball reward : 4.33s
+Elapsed time : 4818.25s
+# 278
+noise : 0.8683
+Avg return : 171.1985
+Ball reward : 4.97s
+Elapsed time : 4837.89s
+# 279
+noise : 0.8684
+Avg return : 168.1679
+Ball reward : 4.72s
+Elapsed time : 4859.42s
+# 280
+noise : 0.8683
+Avg return : 170.0189
+Ball reward : 4.43s
+Elapsed time : 4880.32s
+# 281
+noise : 0.8677
+Avg return : 177.4075
+Ball reward : 2.75s
+Elapsed time : 4900.93s
+# 282
+noise : 0.8678
+Avg return : 171.8494
+Ball reward : 4.95s
+Elapsed time : 4921.21s
+# 283
+noise : 0.8675
+Avg return : 174.2489
+Ball reward : 4.99s
+Elapsed time : 4941.95s
+# 284
+noise : 0.8669
+Avg return : 171.1020
+Ball reward : 4.94s
+Elapsed time : 4962.34s
+# 285
+noise : 0.8664
+Avg return : 175.0325
+Ball reward : 4.82s
+Elapsed time : 4982.89s
+# 286
+noise : 0.8657
+Avg return : 174.7309
+Ball reward : 1.00s
+Elapsed time : 5003.74s
+# 287
+noise : 0.8657
+Avg return : 172.1738
+Ball reward : 4.24s
+Elapsed time : 5022.41s
+# 288
+noise : 0.8661
+Avg return : 174.7220
+Ball reward : 2.74s
+Elapsed time : 5041.72s
+# 289
+noise : 0.8662
+Avg return : 176.0126
+Ball reward : 4.99s
+Elapsed time : 5060.30s
+# 290
+noise : 0.8663
+Avg return : 176.1603
+Ball reward : 4.65s
+Elapsed time : 5078.83s
+# 291
+noise : 0.8656
+Avg return : 175.8687
+Ball reward : 4.60s
+Elapsed time : 5097.60s
+# 292
+noise : 0.8651
+Avg return : 172.6949
+Ball reward : 4.30s
+Elapsed time : 5116.38s
+# 293
+noise : 0.8641
+Avg return : 173.4237
+Ball reward : 3.38s
+Elapsed time : 5135.27s
+# 294
+noise : 0.8636
+Avg return : 174.7132
+Ball reward : 4.30s
+Elapsed time : 5153.53s
+# 295
+noise : 0.8627
+Avg return : 175.0404
+Ball reward : 4.53s
+Elapsed time : 5173.46s
+# 296
+noise : 0.8623
+Avg return : 173.9587
+Ball reward : 4.86s
+Elapsed time : 5192.07s
+# 297
+noise : 0.8618
+Avg return : 174.0929
+Ball reward : 3.84s
+Elapsed time : 5210.21s
+# 298
+noise : 0.8618
+Avg return : 174.2365
+Ball reward : 2.55s
+Elapsed time : 5228.76s
+# 299
+noise : 0.8613
+Avg return : 177.6052
+Ball reward : 2.76s
+Elapsed time : 5248.05s
+# 300
+noise : 0.8610
+Avg return : 170.9596
+Ball reward : 1.02s
+Elapsed time : 5268.62s
+# 301
+noise : 0.8608
+Avg return : 175.0179
+Ball reward : 4.90s
+Elapsed time : 5289.67s
+# 302
+noise : 0.8601
+Avg return : 172.2953
+Ball reward : 4.49s
+Elapsed time : 5310.65s
+# 303
+noise : 0.8598
+Avg return : 173.5870
+Ball reward : 3.88s
+Elapsed time : 5331.27s
+# 304
+noise : 0.8591
+Avg return : 168.6709
+Ball reward : 1.29s
+Elapsed time : 5351.61s
+# 305
+noise : 0.8580
+Avg return : 172.8874
+Ball reward : 4.93s
+Elapsed time : 5372.19s
+# 306
+noise : 0.8568
+Avg return : 167.6109
+Ball reward : 2.61s
+Elapsed time : 5392.60s
+# 307
+noise : 0.8569
+Avg return : 174.9260
+Ball reward : 5.04s
+Elapsed time : 5413.28s
+# 308
+noise : 0.8566
+Avg return : 170.9618
+Ball reward : 4.79s
+Elapsed time : 5436.43s
+# 309
+noise : 0.8561
+Avg return : 172.0100
+Ball reward : 3.25s
+Elapsed time : 5457.13s
+# 310
+noise : 0.8548
+Avg return : 173.3099
+Ball reward : 4.84s
+Elapsed time : 5477.66s
+# 311
+noise : 0.8543
+Avg return : 171.4597
+Ball reward : 4.98s
+Elapsed time : 5498.45s
+# 312
+noise : 0.8542
+Avg return : 174.4930
+Ball reward : 4.88s
+Elapsed time : 5519.90s
+# 313
+noise : 0.8534
+Avg return : 174.7730
+Ball reward : 6.88s
+Elapsed time : 5540.36s
+# 314
+noise : 0.8525
+Avg return : 174.6497
+Ball reward : 4.89s
+Elapsed time : 5561.43s
+# 315
+noise : 0.8518
+Avg return : 174.0582
+Ball reward : 4.98s
+Elapsed time : 5582.20s
+# 316
+noise : 0.8513
+Avg return : 174.9748
+Ball reward : 4.98s
+Elapsed time : 5602.74s
+# 317
+noise : 0.8508
+Avg return : 171.6053
+Ball reward : 4.47s
+Elapsed time : 5623.32s
+# 318
+noise : 0.8500
+Avg return : 175.0436
+Ball reward : 4.99s
+Elapsed time : 5643.92s
+# 319
+noise : 0.8498
+Avg return : 173.4296
+Ball reward : 4.70s
+Elapsed time : 5664.05s
+# 320
+noise : 0.8489
+Avg return : 177.1285
+Ball reward : 4.58s
+Elapsed time : 5685.72s
+# 321
+noise : 0.8484
+Avg return : 175.5459
+Ball reward : 4.75s
+Elapsed time : 5706.39s
+# 322
+noise : 0.8482
+Avg return : 172.7835
+Ball reward : 2.73s
+Elapsed time : 5726.66s
+# 323
+noise : 0.8484
+Avg return : 173.1200
+Ball reward : 4.85s
+Elapsed time : 5747.58s
+# 324
+noise : 0.8485
+Avg return : 174.7589
+Ball reward : 2.61s
+Elapsed time : 5768.65s
+# 325
+noise : 0.8478
+Avg return : 173.0815
+Ball reward : 4.96s
+Elapsed time : 5788.89s
+# 326
+noise : 0.8476
+Avg return : 174.8773
+Ball reward : 1.48s
+Elapsed time : 5810.15s
+# 327
+noise : 0.8482
+Avg return : 179.4601
+Ball reward : 4.97s
+Elapsed time : 5831.96s
+# 328
+noise : 0.8471
+Avg return : 172.9448
+Ball reward : 3.94s
+Elapsed time : 5853.51s
+# 329
+noise : 0.8471
+Avg return : 176.7656
+Ball reward : 5.00s
+Elapsed time : 5873.51s
+# 330
+noise : 0.8472
+Avg return : 176.1255
+Ball reward : 3.59s
+Elapsed time : 5892.08s
+# 331
+noise : 0.8472
+Avg return : 178.1380
+Ball reward : 3.53s
+Elapsed time : 5910.79s
+# 332
+noise : 0.8469
+Avg return : 178.4034
+Ball reward : 4.03s
+Elapsed time : 5929.85s
+# 333
+noise : 0.8469
+Avg return : 176.6413
+Ball reward : 4.36s
+Elapsed time : 5949.36s
+# 334
+noise : 0.8468
+Avg return : 178.1679
+Ball reward : 1.52s
+Elapsed time : 5968.91s
+# 335
+noise : 0.8457
+Avg return : 178.5279
+Ball reward : 4.43s
+Elapsed time : 5988.81s
+# 336
+noise : 0.8459
+Avg return : 177.7232
+Ball reward : 4.96s
+Elapsed time : 6011.50s
+# 337
+noise : 0.8456
+Avg return : 175.5426
+Ball reward : 4.85s
+Elapsed time : 6032.65s
+# 338
+noise : 0.8454
+Avg return : 178.2687
+Ball reward : 5.17s
+Elapsed time : 6054.05s
+# 339
+noise : 0.8454
+Avg return : 176.7218
+Ball reward : 4.07s
+Elapsed time : 6074.63s
+# 340
+noise : 0.8446
+Avg return : 177.9619
+Ball reward : 4.54s
+Elapsed time : 6095.89s
+# 341
+noise : 0.8442
+Avg return : 175.9152
+Ball reward : 5.00s
+Elapsed time : 6116.62s
+# 342
+noise : 0.8437
+Avg return : 179.2438
+Ball reward : 1.72s
+Elapsed time : 6136.99s
+# 343
+noise : 0.8436
+Avg return : 173.6635
+Ball reward : 4.83s
+Elapsed time : 6157.29s
+# 344
+noise : 0.8432
+Avg return : 176.6565
+Ball reward : 3.72s
+Elapsed time : 6177.67s
+# 345
+noise : 0.8429
+Avg return : 179.6866
+Ball reward : 4.90s
+Elapsed time : 6198.20s
+# 346
+noise : 0.8427
+Avg return : 178.2291
+Ball reward : 4.52s
+Elapsed time : 6218.82s
+# 347
+noise : 0.8424
+Avg return : 178.6444
+Ball reward : 2.70s
+Elapsed time : 6239.68s
+# 348
+noise : 0.8422
+Avg return : 177.1993
+Ball reward : 1.68s
+Elapsed time : 6260.00s
+# 349
+noise : 0.8417
+Avg return : 175.5372
+Ball reward : 4.53s
+Elapsed time : 6280.89s
+# 350
+noise : 0.8412
+Avg return : 179.7850
+Ball reward : 1.01s
+Elapsed time : 6301.80s
+# 351
+noise : 0.8414
+Avg return : 179.4517
+Ball reward : 4.79s
+Elapsed time : 6322.90s
+# 352
+noise : 0.8419
+Avg return : 178.0092
+Ball reward : 3.02s
+Elapsed time : 6343.31s
+# 353
+noise : 0.8416
+Avg return : 180.0336
+Ball reward : 2.08s
+Elapsed time : 6364.31s
+# 354
+noise : 0.8415
+Avg return : 180.3716
+Ball reward : 3.95s
+Elapsed time : 6384.80s
+# 355
+noise : 0.8415
+Avg return : 180.0626
+Ball reward : 4.93s
+Elapsed time : 6405.68s
+# 356
+noise : 0.8414
+Avg return : 179.7881
+Ball reward : 1.97s
+Elapsed time : 6426.49s
+# 357
+noise : 0.8412
+Avg return : 180.1571
+Ball reward : 4.41s
+Elapsed time : 6447.24s
+# 358
+noise : 0.8406
+Avg return : 177.4059
+Ball reward : 4.42s
+Elapsed time : 6467.44s
+# 359
+noise : 0.8402
+Avg return : 175.9636
+Ball reward : 4.43s
+Elapsed time : 6488.27s
+# 360
+noise : 0.8400
+Avg return : 180.9101
+Ball reward : 3.25s
+Elapsed time : 6509.36s
+# 361
+noise : 0.8391
+Avg return : 179.4160
+Ball reward : 2.12s
+Elapsed time : 6530.11s
+# 362
+noise : 0.8389
+Avg return : 182.0819
+Ball reward : 4.72s
+Elapsed time : 6551.28s
+# 363
+noise : 0.8384
+Avg return : 179.1742
+Ball reward : 4.15s
+Elapsed time : 6571.80s
+# 364
+noise : 0.8385
+Avg return : 182.7898
+Ball reward : 4.93s
+Elapsed time : 6592.76s
+# 365
+noise : 0.8384
+Avg return : 180.6931
+Ball reward : 4.55s
+Elapsed time : 6613.58s
+# 366
+noise : 0.8384
+Avg return : 180.5287
+Ball reward : 4.28s
+Elapsed time : 6634.56s
+# 367
+noise : 0.8384
+Avg return : 182.4780
+Ball reward : 5.00s
+Elapsed time : 6655.19s
+# 368
+noise : 0.8377
+Avg return : 180.0706
+Ball reward : 1.00s
+Elapsed time : 6675.91s
+# 369
+noise : 0.8386
+Avg return : 176.1602
+Ball reward : 4.97s
+Elapsed time : 6696.19s
+# 370
+noise : 0.8381
+Avg return : 180.8728
+Ball reward : 4.22s
+Elapsed time : 6717.45s
+# 371
+noise : 0.8376
+Avg return : 176.8915
+Ball reward : 4.61s
+Elapsed time : 6738.14s
+# 372
+noise : 0.8379
+Avg return : 179.8811
+Ball reward : 4.96s
+Elapsed time : 6759.51s
+# 373
+noise : 0.8377
+Avg return : 181.5523
+Ball reward : 4.51s
+Elapsed time : 6779.58s
+# 374
+noise : 0.8374
+Avg return : 180.0253
+Ball reward : 4.28s
+Elapsed time : 6800.19s
+# 375
+noise : 0.8372
+Avg return : 179.8228
+Ball reward : 4.50s
+Elapsed time : 6820.59s
+# 376
+noise : 0.8364
+Avg return : 181.8170
+Ball reward : 1.04s
+Elapsed time : 6841.48s
+# 377
+noise : 0.8359
+Avg return : 178.9684
+Ball reward : 4.85s
+Elapsed time : 6862.31s
+# 378
+noise : 0.8352
+Avg return : 181.2790
+Ball reward : 4.96s
+Elapsed time : 6884.03s
+# 379
+noise : 0.8350
+Avg return : 178.7470
+Ball reward : 4.93s
+Elapsed time : 6904.75s
+# 380
+noise : 0.8351
+Avg return : 180.3452
+Ball reward : 2.88s
+Elapsed time : 6925.60s
+# 381
+noise : 0.8345
+Avg return : 180.3116
+Ball reward : 4.69s
+Elapsed time : 6946.59s
+# 382
+noise : 0.8337
+Avg return : 181.1432
+Ball reward : 4.89s
+Elapsed time : 6967.78s
+# 383
+noise : 0.8333
+Avg return : 178.3028
+Ball reward : 1.36s
+Elapsed time : 6988.44s
+# 384
+noise : 0.8340
+Avg return : 178.6746
+Ball reward : 4.72s
+Elapsed time : 7008.33s
+# 385
+noise : 0.8336
+Avg return : 179.9734
+Ball reward : 4.98s
+Elapsed time : 7027.28s
+# 386
+noise : 0.8336
+Avg return : 183.4932
+Ball reward : 4.14s
+Elapsed time : 7046.80s
+# 387
+noise : 0.8328
+Avg return : 179.9226
+Ball reward : 4.90s
+Elapsed time : 7065.41s
+# 388
+noise : 0.8324
+Avg return : 182.8373
+Ball reward : 4.99s
+Elapsed time : 7084.35s
+# 389
+noise : 0.8319
+Avg return : 179.5818
+Ball reward : 3.52s
+Elapsed time : 7103.82s
+# 390
+noise : 0.8310
+Avg return : 180.0389
+Ball reward : 1.00s
+Elapsed time : 7122.66s
+# 391
+noise : 0.8310
+Avg return : 179.7095
+Ball reward : 1.74s
+Elapsed time : 7142.42s
+# 392
+noise : 0.8308
+Avg return : 181.7158
+Ball reward : 3.86s
+Elapsed time : 7163.55s
+# 393
+noise : 0.8312
+Avg return : 181.3528
+Ball reward : 3.21s
+Elapsed time : 7184.24s
+# 394
+noise : 0.8302
+Avg return : 181.6690
+Ball reward : 4.93s
+Elapsed time : 7207.00s
+# 395
+noise : 0.8298
+Avg return : 180.9337
+Ball reward : 1.58s
+Elapsed time : 7239.04s
+# 396
+noise : 0.8298
+Avg return : 183.3262
+Ball reward : 4.20s
+Elapsed time : 7259.39s
+# 397
+noise : 0.8297
+Avg return : 182.5809
+Ball reward : 3.86s
+Elapsed time : 7280.08s
+# 398
+noise : 0.8291
+Avg return : 183.0485
+Ball reward : 4.90s
+Elapsed time : 7300.40s
+# 399
+noise : 0.8291
+Avg return : 181.1088
+Ball reward : 4.35s
+Elapsed time : 7319.98s
+# 400
+noise : 0.8287
+Avg return : 182.3299
+Ball reward : 4.55s
+Elapsed time : 7340.72s
+# 401
+noise : 0.8289
+Avg return : 184.5002
+Ball reward : 1.00s
+Elapsed time : 7362.01s
+# 402
+noise : 0.8290
+Avg return : 186.4670
+Ball reward : 1.71s
+Elapsed time : 7383.18s
+# 403
+noise : 0.8282
+Avg return : 184.3045
+Ball reward : 1.00s
+Elapsed time : 7404.36s
+# 404
+noise : 0.8279
+Avg return : 182.6385
+Ball reward : 4.98s
+Elapsed time : 7425.54s
+# 405
+noise : 0.8272
+Avg return : 187.9504
+Ball reward : 5.00s
+Elapsed time : 7446.40s
+# 406
+noise : 0.8269
+Avg return : 183.5231
+Ball reward : 1.00s
+Elapsed time : 7467.76s
+# 407
+noise : 0.8268
+Avg return : 184.5946
+Ball reward : 4.08s
+Elapsed time : 7488.30s
+# 408
+noise : 0.8265
+Avg return : 183.2569
+Ball reward : 4.17s
+Elapsed time : 7509.27s
+# 409
+noise : 0.8261
+Avg return : 183.5408
+Ball reward : 4.98s
+Elapsed time : 7529.92s
+# 410
+noise : 0.8261
+Avg return : 185.5466
+Ball reward : 4.96s
+Elapsed time : 7551.06s
+# 411
+noise : 0.8263
+Avg return : 184.9000
+Ball reward : 4.24s
+Elapsed time : 7572.76s
+# 412
+noise : 0.8252
+Avg return : 184.2193
+Ball reward : 4.93s
+Elapsed time : 7594.12s
+# 413
+noise : 0.8253
+Avg return : 184.9638
+Ball reward : 4.96s
+Elapsed time : 7615.45s
+# 414
+noise : 0.8252
+Avg return : 184.6763
+Ball reward : 6.64s
+Elapsed time : 7636.55s
+# 415
+noise : 0.8249
+Avg return : 185.0604
+Ball reward : 4.49s
+Elapsed time : 7656.92s
+# 416
+noise : 0.8247
+Avg return : 187.5793
+Ball reward : 2.94s
+Elapsed time : 7677.88s
+# 417
+noise : 0.8245
+Avg return : 187.4051
+Ball reward : 2.67s
+Elapsed time : 7699.00s
+# 418
+noise : 0.8247
+Avg return : 186.9309
+Ball reward : 2.04s
+Elapsed time : 7719.44s
+# 419
+noise : 0.8247
+Avg return : 184.1274
+Ball reward : 4.67s
+Elapsed time : 7740.30s
+# 420
+noise : 0.8244
+Avg return : 185.7281
+Ball reward : 1.70s
+Elapsed time : 7761.34s
+# 421
+noise : 0.8232
+Avg return : 184.9802
+Ball reward : 3.59s
+Elapsed time : 7782.61s
+# 422
+noise : 0.8229
+Avg return : 184.7654
+Ball reward : 4.83s
+Elapsed time : 7803.78s
+# 423
+noise : 0.8220
+Avg return : 184.6011
+Ball reward : 3.36s
+Elapsed time : 7824.72s
+# 424
+noise : 0.8219
+Avg return : 186.3420
+Ball reward : 3.31s
+Elapsed time : 7845.62s
+# 425
+noise : 0.8213
+Avg return : 183.9588
+Ball reward : 2.52s
+Elapsed time : 7866.30s
+# 426
+noise : 0.8211
+Avg return : 185.9337
+Ball reward : 1.18s
+Elapsed time : 7887.50s
+# 427
+noise : 0.8204
+Avg return : 183.7120
+Ball reward : 1.83s
+Elapsed time : 7908.61s
+# 428
+noise : 0.8202
+Avg return : 186.9226
+Ball reward : 1.70s
+Elapsed time : 7929.22s
+# 429
+noise : 0.8201
+Avg return : 182.2441
+Ball reward : 1.49s
+Elapsed time : 7949.29s
+# 430
+noise : 0.8202
+Avg return : 183.5236
+Ball reward : 4.58s
+Elapsed time : 7968.39s
+# 431
+noise : 0.8202
+Avg return : 187.9676
+Ball reward : 1.05s
+Elapsed time : 7987.75s
+# 432
+noise : 0.8201
+Avg return : 185.8532
+Ball reward : 3.20s
+Elapsed time : 8008.25s
+# 433
+noise : 0.8204
+Avg return : 184.6829
+Ball reward : 1.01s
+Elapsed time : 8028.78s
+# 434
+noise : 0.8197
+Avg return : 186.6942
+Ball reward : 4.85s
+Elapsed time : 8048.54s
+# 435
+noise : 0.8189
+Avg return : 186.5844
+Ball reward : 4.30s
+Elapsed time : 8067.93s
+# 436
+noise : 0.8184
+Avg return : 184.7756
+Ball reward : 4.75s
+Elapsed time : 8086.37s
+# 437
+noise : 0.8176
+Avg return : 185.5754
+Ball reward : 3.65s
+Elapsed time : 8106.70s
+# 438
+noise : 0.8168
+Avg return : 186.1565
+Ball reward : 4.93s
+Elapsed time : 8129.74s
+# 439
+noise : 0.8159
+Avg return : 189.0882
+Ball reward : 4.32s
+Elapsed time : 8151.20s
+# 440
+noise : 0.8152
+Avg return : 189.1334
+Ball reward : 4.81s
+Elapsed time : 8173.16s
+# 441
+noise : 0.8145
+Avg return : 183.1757
+Ball reward : 3.12s
+Elapsed time : 8195.50s
+# 442
+noise : 0.8136
+Avg return : 184.5982
+Ball reward : 1.00s
+Elapsed time : 8216.68s
+# 443
+noise : 0.8138
+Avg return : 184.1092
+Ball reward : 1.00s
+Elapsed time : 8237.23s
+# 444
+noise : 0.8140
+Avg return : 184.3062
+Ball reward : 1.03s
+Elapsed time : 8258.34s
+# 445
+noise : 0.8134
+Avg return : 185.0299
+Ball reward : 1.00s
+Elapsed time : 8279.10s
+# 446
+noise : 0.8132
+Avg return : 188.4983
+Ball reward : 1.00s
+Elapsed time : 8299.93s
+# 447
+noise : 0.8137
+Avg return : 186.0948
+Ball reward : 1.00s
+Elapsed time : 8320.96s
+# 448
+noise : 0.8130
+Avg return : 185.9372
+Ball reward : 4.89s
+Elapsed time : 8343.24s
+# 449
+noise : 0.8125
+Avg return : 187.6897
+Ball reward : 4.31s
+Elapsed time : 8365.52s
+# 450
+noise : 0.8129
+Avg return : 186.7395
+Ball reward : 4.99s
+Elapsed time : 8391.36s
+# 451
+noise : 0.8124
+Avg return : 185.7664
+Ball reward : 4.06s
+Elapsed time : 8412.48s
+# 452
+noise : 0.8130
+Avg return : 185.5067
+Ball reward : 4.90s
+Elapsed time : 8433.01s
+# 453
+noise : 0.8129
+Avg return : 185.8847
+Ball reward : 4.81s
+Elapsed time : 8453.81s
+# 454
+noise : 0.8132
+Avg return : 191.0476
+Ball reward : 5.69s
+Elapsed time : 8475.41s
+# 455
+noise : 0.8124
+Avg return : 189.7425
+Ball reward : 4.99s
+Elapsed time : 8497.06s
+# 456
+noise : 0.8122
+Avg return : 186.1029
+Ball reward : 1.18s
+Elapsed time : 8517.94s
+# 457
+noise : 0.8119
+Avg return : 187.9855
+Ball reward : 4.93s
+Elapsed time : 8538.94s
+# 458
+noise : 0.8120
+Avg return : 189.2077
+Ball reward : 5.07s
+Elapsed time : 8560.63s
+# 459
+noise : 0.8120
+Avg return : 189.4835
+Ball reward : 1.00s
+Elapsed time : 8581.16s
+# 460
+noise : 0.8113
+Avg return : 188.7780
+Ball reward : 3.40s
+Elapsed time : 8602.65s
+# 461
+noise : 0.8105
+Avg return : 186.5024
+Ball reward : 3.34s
+Elapsed time : 8623.30s
+# 462
+noise : 0.8109
+Avg return : 189.4436
+Ball reward : 1.10s
+Elapsed time : 8644.79s
+# 463
+noise : 0.8102
+Avg return : 190.0486
+Ball reward : 1.00s
+Elapsed time : 8666.57s
+# 464
+noise : 0.8103
+Avg return : 191.5263
+Ball reward : 4.52s
+Elapsed time : 8687.77s
+# 465
+noise : 0.8097
+Avg return : 188.1321
+Ball reward : 2.43s
+Elapsed time : 8709.56s
+# 466
+noise : 0.8095
+Avg return : 190.7494
+Ball reward : 5.84s
+Elapsed time : 8730.44s
+# 467
+noise : 0.8092
+Avg return : 190.3827
+Ball reward : 3.79s
+Elapsed time : 8751.89s
+# 468
+noise : 0.8090
+Avg return : 194.1766
+Ball reward : 1.22s
+Elapsed time : 8773.64s
+# 469
+noise : 0.8090
+Avg return : 191.5949
+Ball reward : 4.73s
+Elapsed time : 8795.06s
+# 470
+noise : 0.8083
+Avg return : 187.0348
+Ball reward : 4.91s
+Elapsed time : 8815.71s
+# 471
+noise : 0.8089
+Avg return : 192.0895
+Ball reward : 5.00s
+Elapsed time : 8837.26s
+# 472
+noise : 0.8082
+Avg return : 190.3783
+Ball reward : 1.65s
+Elapsed time : 8858.78s
+# 473
+noise : 0.8074
+Avg return : 190.1378
+Ball reward : 3.93s
+Elapsed time : 8879.51s
+# 474
+noise : 0.8075
+Avg return : 192.5953
+Ball reward : 4.91s
+Elapsed time : 8900.65s
+# 475
+noise : 0.8071
+Avg return : 186.7544
+Ball reward : 4.12s
+Elapsed time : 8921.56s
+# 476
+noise : 0.8074
+Avg return : 189.0826
+Ball reward : 4.29s
+Elapsed time : 8942.27s
+# 477
+noise : 0.8072
+Avg return : 193.2094
+Ball reward : 1.31s
+Elapsed time : 8963.76s
+# 478
+noise : 0.8064
+Avg return : 186.9069
+Ball reward : 1.45s
+Elapsed time : 8984.74s
+# 479
+noise : 0.8066
+Avg return : 192.8970
+Ball reward : 4.99s
+Elapsed time : 9006.22s
+# 480
+noise : 0.8065
+Avg return : 190.4300
+Ball reward : 3.83s
+Elapsed time : 9027.56s
+# 481
+noise : 0.8061
+Avg return : 193.1697
+Ball reward : 1.11s
+Elapsed time : 9049.45s
+# 482
+noise : 0.8057
+Avg return : 191.9961
+Ball reward : 1.00s
+Elapsed time : 9070.82s
+# 483
+noise : 0.8055
+Avg return : 191.2120
+Ball reward : 2.00s
+Elapsed time : 9093.02s
+# 484
+noise : 0.8052
+Avg return : 190.8947
+Ball reward : 3.84s
+Elapsed time : 9113.83s
+# 485
+noise : 0.8050
+Avg return : 191.4401
+Ball reward : 4.42s
+Elapsed time : 9135.65s
+# 486
+noise : 0.8047
+Avg return : 191.6591
+Ball reward : 4.97s
+Elapsed time : 9158.69s
+# 487
+noise : 0.8049
+Avg return : 194.1367
+Ball reward : 4.32s
+Elapsed time : 9180.27s
+# 488
+noise : 0.8036
+Avg return : 190.7721
+Ball reward : 2.18s
+Elapsed time : 9201.57s
+# 489
+noise : 0.8031
+Avg return : 192.9862
+Ball reward : 1.01s
+Elapsed time : 9223.08s
+# 490
+noise : 0.8029
+Avg return : 193.2828
+Ball reward : 1.00s
+Elapsed time : 9244.11s
+# 491
+noise : 0.8031
+Avg return : 191.3952
+Ball reward : 4.96s
+Elapsed time : 9265.83s
+# 492
+noise : 0.8021
+Avg return : 191.4043
+Ball reward : 4.93s
+Elapsed time : 9287.57s
+# 493
+noise : 0.8019
+Avg return : 190.6168
+Ball reward : 1.54s
+Elapsed time : 9308.75s
+# 494
+noise : 0.8010
+Avg return : 192.3706
+Ball reward : 4.95s
+Elapsed time : 9329.61s
+# 495
+noise : 0.8009
+Avg return : 190.7456
+Ball reward : 5.00s
+Elapsed time : 9350.18s
+# 496
+noise : 0.8002
+Avg return : 189.3626
+Ball reward : 1.00s
+Elapsed time : 9371.17s
+# 497
+noise : 0.8002
+Avg return : 190.9502
+Ball reward : 2.81s
+Elapsed time : 9392.29s
+# 498
+noise : 0.8002
+Avg return : 190.3614
+Ball reward : 1.34s
+Elapsed time : 9413.41s
+# 499
+noise : 0.7995
+Avg return : 193.2231
+Ball reward : 1.02s
+Elapsed time : 9434.82s
+# 500
+noise : 0.7995
+Avg return : 191.4319
+Ball reward : 4.85s
+Elapsed time : 9455.70s
+# 501
+noise : 0.7996
+Avg return : 193.2599
+Ball reward : 4.05s
+Elapsed time : 9476.64s
+# 502
+noise : 0.7994
+Avg return : 190.3377
+Ball reward : 1.00s
+Elapsed time : 9496.36s
+# 503
+noise : 0.7987
+Avg return : 191.7283
+Ball reward : 4.90s
+Elapsed time : 9516.02s
+# 504
+noise : 0.7981
+Avg return : 193.6703
+Ball reward : 4.98s
+Elapsed time : 9535.29s
+# 505
+noise : 0.7979
+Avg return : 192.0987
+Ball reward : 4.72s
+Elapsed time : 9555.67s
+# 506
+noise : 0.7978
+Avg return : 193.1955
+Ball reward : 4.89s
+Elapsed time : 9575.33s
+# 507
+noise : 0.7976
+Avg return : 195.0506
+Ball reward : 4.32s
+Elapsed time : 9594.66s
+# 508
+noise : 0.7975
+Avg return : 192.5397
+Ball reward : 4.92s
+Elapsed time : 9614.31s
+# 509
+noise : 0.7968
+Avg return : 198.7720
+Ball reward : 4.93s
+Elapsed time : 9634.35s
+# 510
+noise : 0.7963
+Avg return : 198.0657
+Ball reward : 1.00s
+Elapsed time : 9653.90s
+# 511
+noise : 0.7960
+Avg return : 195.8371
+Ball reward : 1.69s
+Elapsed time : 9673.85s
+# 512
+noise : 0.7960
+Avg return : 196.5414
+Ball reward : 4.71s
+Elapsed time : 9694.38s
+# 513
+noise : 0.7953
+Avg return : 195.0715
+Ball reward : 2.65s
+Elapsed time : 9713.81s
+# 514
+noise : 0.7954
+Avg return : 199.5883
+Ball reward : 4.86s
+Elapsed time : 9733.30s
+# 515
+noise : 0.7953
+Avg return : 195.5139
+Ball reward : 1.62s
+Elapsed time : 9752.48s
+# 516
+noise : 0.7948
+Avg return : 198.1443
+Ball reward : 4.90s
+Elapsed time : 9773.60s
+# 517
+noise : 0.7943
+Avg return : 192.9611
+Ball reward : 4.75s
+Elapsed time : 9795.22s
+# 518
+noise : 0.7941
+Avg return : 194.8395
+Ball reward : 2.09s
+Elapsed time : 9815.95s
+# 519
+noise : 0.7941
+Avg return : 197.1318
+Ball reward : 5.48s
+Elapsed time : 9838.08s
+# 520
+noise : 0.7942
+Avg return : 193.4033
+Ball reward : 1.08s
+Elapsed time : 9859.48s
+# 521
+noise : 0.7940
+Avg return : 199.8134
+Ball reward : 1.00s
+Elapsed time : 9881.45s
+# 522
+noise : 0.7931
+Avg return : 193.6087
+Ball reward : 4.31s
+Elapsed time : 9902.82s
+# 523
+noise : 0.7928
+Avg return : 197.6226
+Ball reward : 1.73s
+Elapsed time : 9924.64s
+# 524
+noise : 0.7927
+Avg return : 193.6258
+Ball reward : 3.86s
+Elapsed time : 9946.27s
+# 525
+noise : 0.7925
+Avg return : 192.9260
+Ball reward : 1.00s
+Elapsed time : 9968.07s
+# 526
+noise : 0.7927
+Avg return : 198.1244
+Ball reward : 4.91s
+Elapsed time : 9989.53s
+# 527
+noise : 0.7926
+Avg return : 194.7321
+Ball reward : 1.34s
+Elapsed time : 10010.99s
+# 528
+noise : 0.7918
+Avg return : 199.5124
+Ball reward : 1.06s
+Elapsed time : 10032.73s
+# 529
+noise : 0.7913
+Avg return : 197.4272
+Ball reward : 4.04s
+Elapsed time : 10055.20s
+# 530
+noise : 0.7912
+Avg return : 191.4984
+Ball reward : 4.49s
+Elapsed time : 10075.96s
+# 531
+noise : 0.7905
+Avg return : 193.1150
+Ball reward : 4.96s
+Elapsed time : 10097.66s
+# 532
+noise : 0.7897
+Avg return : 194.8563
+Ball reward : 4.46s
+Elapsed time : 10119.17s
+# 533
+noise : 0.7891
+Avg return : 196.8052
+Ball reward : 3.50s
+Elapsed time : 10141.17s
+# 534
+noise : 0.7889
+Avg return : 195.4522
+Ball reward : 1.24s
+Elapsed time : 10162.30s
+# 535
+noise : 0.7879
+Avg return : 194.9098
+Ball reward : 1.15s
+Elapsed time : 10184.19s
+# 536
+noise : 0.7876
+Avg return : 196.4725
+Ball reward : 5.00s
+Elapsed time : 10205.44s
+# 537
+noise : 0.7870
+Avg return : 198.1365
+Ball reward : 5.00s
+Elapsed time : 10227.31s
+# 538
+noise : 0.7863
+Avg return : 193.8189
+Ball reward : 1.80s
+Elapsed time : 10248.45s
+# 539
+noise : 0.7860
+Avg return : 196.3137
+Ball reward : 2.73s
+Elapsed time : 10269.15s
+# 540
+noise : 0.7850
+Avg return : 199.2012
+Ball reward : 3.48s
+Elapsed time : 10291.38s
+# 541
+noise : 0.7844
+Avg return : 196.5902
+Ball reward : 1.00s
+Elapsed time : 10312.94s
+# 542
+noise : 0.7840
+Avg return : 197.9242
+Ball reward : 1.19s
+Elapsed time : 10335.04s
+# 543
+noise : 0.7841
+Avg return : 196.6378
+Ball reward : 1.00s
+Elapsed time : 10356.42s
+# 544
+noise : 0.7837
+Avg return : 195.4001
+Ball reward : 4.02s
+Elapsed time : 10377.89s
+# 545
+noise : 0.7833
+Avg return : 197.3486
+Ball reward : 4.99s
+Elapsed time : 10400.10s
+# 546
+noise : 0.7825
+Avg return : 198.7017
+Ball reward : 5.01s
+Elapsed time : 10422.54s
+# 547
+noise : 0.7819
+Avg return : 195.9268
+Ball reward : 1.25s
+Elapsed time : 10444.49s
+# 548
+noise : 0.7824
+Avg return : 197.0195
+Ball reward : 4.85s
+Elapsed time : 10465.59s
+# 549
+noise : 0.7819
+Avg return : 200.8366
+Ball reward : 1.68s
+Elapsed time : 10487.88s
+# 550
+noise : 0.7810
+Avg return : 195.6023
+Ball reward : 4.58s
+Elapsed time : 10509.16s
+# 551
+noise : 0.7808
+Avg return : 201.3334
+Ball reward : 1.76s
+Elapsed time : 10531.46s
+# 552
+noise : 0.7806
+Avg return : 197.5750
+Ball reward : 1.11s
+Elapsed time : 10553.91s
+# 553
+noise : 0.7802
+Avg return : 198.3261
+Ball reward : 2.40s
+Elapsed time : 10576.31s
+# 554
+noise : 0.7796
+Avg return : 200.6394
+Ball reward : 4.06s
+Elapsed time : 10598.19s
+# 555
+noise : 0.7789
+Avg return : 197.1995
+Ball reward : 1.65s
+Elapsed time : 10620.43s
+# 556
+noise : 0.7785
+Avg return : 200.2553
+Ball reward : 4.91s
+Elapsed time : 10642.57s
+# 557
+noise : 0.7781
+Avg return : 199.7816
+Ball reward : 4.99s
+Elapsed time : 10665.24s
+# 558
+noise : 0.7777
+Avg return : 198.9266
+Ball reward : 1.25s
+Elapsed time : 10688.53s
+# 559
+noise : 0.7772
+Avg return : 200.7585
+Ball reward : 3.83s
+Elapsed time : 10711.40s
+# 560
+noise : 0.7771
+Avg return : 198.4906
+Ball reward : 2.43s
+Elapsed time : 10733.72s
+# 561
+noise : 0.7773
+Avg return : 197.8061
+Ball reward : 4.22s
+Elapsed time : 10756.33s
+# 562
+noise : 0.7768
+Avg return : 197.8258
+Ball reward : 3.27s
+Elapsed time : 10777.73s
+# 563
+noise : 0.7768
+Avg return : 198.0264
+Ball reward : 4.99s
+Elapsed time : 10799.49s
+# 564
+noise : 0.7768
+Avg return : 200.0239
+Ball reward : 4.80s
+Elapsed time : 10821.35s
+# 565
+noise : 0.7761
+Avg return : 199.9125
+Ball reward : 4.20s
+Elapsed time : 10843.30s
+# 566
+noise : 0.7760
+Avg return : 200.2786
+Ball reward : 3.94s
+Elapsed time : 10865.41s
+# 567
+noise : 0.7761
+Avg return : 198.5808
+Ball reward : 4.95s
+Elapsed time : 10887.33s
+# 568
+noise : 0.7753
+Avg return : 202.3340
+Ball reward : 4.97s
+Elapsed time : 10909.11s
+# 569
+noise : 0.7752
+Avg return : 204.1690
+Ball reward : 1.00s
+Elapsed time : 10930.32s
+# 570
+noise : 0.7748
+Avg return : 200.8570
+Ball reward : 4.07s
+Elapsed time : 10960.36s
+# 571
+noise : 0.7748
+Avg return : 201.4101
+Ball reward : 1.82s
+Elapsed time : 10980.55s
+# 572
+noise : 0.7750
+Avg return : 200.4167
+Ball reward : 3.38s
+Elapsed time : 11000.73s
+# 573
+noise : 0.7750
+Avg return : 201.9093
+Ball reward : 4.14s
+Elapsed time : 11021.43s
+# 574
+noise : 0.7747
+Avg return : 200.3365
+Ball reward : 4.75s
+Elapsed time : 11042.44s
+# 575
+noise : 0.7747
+Avg return : 202.4678
+Ball reward : 1.22s
+Elapsed time : 11063.28s
+# 576
+noise : 0.7745
+Avg return : 199.4183
+Ball reward : 1.89s
+Elapsed time : 11083.85s
+# 577
+noise : 0.7738
+Avg return : 200.5302
+Ball reward : 4.09s
+Elapsed time : 11104.91s
+# 578
+noise : 0.7728
+Avg return : 199.5839
+Ball reward : 4.81s
+Elapsed time : 11125.37s
+# 579
+noise : 0.7721
+Avg return : 200.8838
+Ball reward : 3.77s
+Elapsed time : 11152.84s
+# 580
+noise : 0.7720
+Avg return : 205.2749
+Ball reward : 4.83s
+Elapsed time : 11173.59s
+# 581
+noise : 0.7717
+Avg return : 200.2519
+Ball reward : 4.98s
+Elapsed time : 11194.30s
+# 582
+noise : 0.7714
+Avg return : 200.4186
+Ball reward : 4.96s
+Elapsed time : 11216.91s
+# 583
+noise : 0.7716
+Avg return : 201.4318
+Ball reward : 2.91s
+Elapsed time : 11237.05s
+# 584
+noise : 0.7711
+Avg return : 204.7068
+Ball reward : 1.05s
+Elapsed time : 11258.24s
+# 585
+noise : 0.7705
+Avg return : 201.1570
+Ball reward : 1.48s
+Elapsed time : 11278.54s
+# 586
+noise : 0.7703
+Avg return : 207.4091
+Ball reward : 4.79s
+Elapsed time : 11299.21s
+# 587
+noise : 0.7706
+Avg return : 207.1793
+Ball reward : 4.66s
+Elapsed time : 11319.68s
+# 588
+noise : 0.7700
+Avg return : 204.0858
+Ball reward : 1.87s
+Elapsed time : 11340.25s
+# 589
+noise : 0.7694
+Avg return : 206.6289
+Ball reward : 1.09s
+Elapsed time : 11361.55s
+# 590
+noise : 0.7692
+Avg return : 205.6995
+Ball reward : 1.46s
+Elapsed time : 11382.25s
+# 591
+noise : 0.7689
+Avg return : 206.2448
+Ball reward : 1.00s
+Elapsed time : 11404.17s
+# 592
+noise : 0.7696
+Avg return : 208.7634
+Ball reward : 4.01s
+Elapsed time : 11424.98s
+# 593
+noise : 0.7697
+Avg return : 206.7290
+Ball reward : 4.15s
+Elapsed time : 11445.76s
+# 594
+noise : 0.7691
+Avg return : 206.2188
+Ball reward : 4.69s
+Elapsed time : 11467.81s
+# 595
+noise : 0.7689
+Avg return : 208.7517
+Ball reward : 4.94s
+Elapsed time : 11490.04s
+# 596
+noise : 0.7692
+Avg return : 210.9735
+Ball reward : 4.41s
+Elapsed time : 11511.96s
+# 597
+noise : 0.7694
+Avg return : 205.7641
+Ball reward : 3.06s
+Elapsed time : 11533.69s
+# 598
+noise : 0.7690
+Avg return : 208.3703
+Ball reward : 2.54s
+Elapsed time : 11555.15s
+# 599
+noise : 0.7693
+Avg return : 208.0690
+Ball reward : 4.91s
+Elapsed time : 11575.49s
+# 600
+noise : 0.7694
+Avg return : 206.9022
+Ball reward : 3.48s
+Elapsed time : 11596.02s
+# 601
+noise : 0.7687
+Avg return : 207.2248
+Ball reward : 4.47s
+Elapsed time : 11616.13s
+# 602
+noise : 0.7682
+Avg return : 207.0491
+Ball reward : 4.56s
+Elapsed time : 11636.13s
+# 603
+noise : 0.7682
+Avg return : 203.4601
+Ball reward : 1.72s
+Elapsed time : 11655.54s
+# 604
+noise : 0.7671
+Avg return : 212.1002
+Ball reward : 3.65s
+Elapsed time : 11676.33s
+# 605
+noise : 0.7673
+Avg return : 206.6619
+Ball reward : 3.85s
+Elapsed time : 11696.04s
+# 606
+noise : 0.7670
+Avg return : 207.1075
+Ball reward : 1.12s
+Elapsed time : 11716.61s
+# 607
+noise : 0.7666
+Avg return : 209.9799
+Ball reward : 2.83s
+Elapsed time : 11749.00s
+# 608
+noise : 0.7661
+Avg return : 203.9598
+Ball reward : 2.03s
+Elapsed time : 11778.02s
+# 609
+noise : 0.7660
+Avg return : 204.7148
+Ball reward : 4.92s
+Elapsed time : 11802.40s
+# 610
+noise : 0.7654
+Avg return : 210.4699
+Ball reward : 1.10s
+Elapsed time : 11827.52s
+# 611
+noise : 0.7642
+Avg return : 206.3908
+Ball reward : 2.78s
+Elapsed time : 11851.34s
+# 612
+noise : 0.7635
+Avg return : 211.3872
+Ball reward : 4.69s
+Elapsed time : 11874.06s
+# 613
+noise : 0.7641
+Avg return : 208.3575
+Ball reward : 2.16s
+Elapsed time : 11897.39s
+# 614
+noise : 0.7639
+Avg return : 207.6008
+Ball reward : 1.11s
+Elapsed time : 11920.96s
+# 615
+noise : 0.7644
+Avg return : 210.9568
+Ball reward : 5.41s
+Elapsed time : 11944.75s
+# 616
+noise : 0.7644
+Avg return : 205.8640
+Ball reward : 1.49s
+Elapsed time : 11967.94s
+# 617
+noise : 0.7643
+Avg return : 204.5017
+Ball reward : 1.17s
+Elapsed time : 11991.62s
+# 618
+noise : 0.7642
+Avg return : 208.9588
+Ball reward : 4.78s
+Elapsed time : 12016.20s
+# 619
+noise : 0.7639
+Avg return : 212.3936
+Ball reward : 4.90s
+Elapsed time : 12040.98s
+# 620
+noise : 0.7633
+Avg return : 211.5730
+Ball reward : 2.18s
+Elapsed time : 12067.69s
+# 621
+noise : 0.7634
+Avg return : 206.3530
+Ball reward : 5.00s
+Elapsed time : 12092.14s
+# 622
+noise : 0.7627
+Avg return : 213.4066
+Ball reward : 5.00s
+Elapsed time : 12117.60s
+# 623
+noise : 0.7623
+Avg return : 211.3194
+Ball reward : 1.57s
+Elapsed time : 12142.25s
+# 624
+noise : 0.7620
+Avg return : 211.0121
+Ball reward : 5.00s
+Elapsed time : 12167.16s
+# 625
+noise : 0.7613
+Avg return : 203.6054
+Ball reward : 2.56s
+Elapsed time : 12191.46s
+# 626
+noise : 0.7608
+Avg return : 210.0882
+Ball reward : 4.51s
+Elapsed time : 12215.76s
+# 627
+noise : 0.7609
+Avg return : 210.1229
+Ball reward : 2.99s
+Elapsed time : 12239.11s
+# 628
+noise : 0.7606
+Avg return : 208.4579
+Ball reward : 4.94s
+Elapsed time : 12262.98s
+# 629
+noise : 0.7609
+Avg return : 209.6051
+Ball reward : 4.00s
+Elapsed time : 12288.59s
+# 630
+noise : 0.7605
+Avg return : 213.1949
+Ball reward : 4.85s
+Elapsed time : 12314.30s
+# 631
+noise : 0.7605
+Avg return : 213.8653
+Ball reward : 1.93s
+Elapsed time : 12340.93s
+# 632
+noise : 0.7603
+Avg return : 214.9293
+Ball reward : 1.03s
+Elapsed time : 12370.76s
+# 633
+noise : 0.7598
+Avg return : 212.6827
+Ball reward : 1.95s
+Elapsed time : 12396.56s
+# 634
+noise : 0.7603
+Avg return : 213.0913
+Ball reward : 4.95s
+Elapsed time : 12421.28s
+# 635
+noise : 0.7610
+Avg return : 214.3668
+Ball reward : 3.05s
+Elapsed time : 12445.78s
+# 636
+noise : 0.7599
+Avg return : 214.9125
+Ball reward : 4.06s
+Elapsed time : 12470.64s
+# 637
+noise : 0.7594
+Avg return : 212.3383
+Ball reward : 3.07s
+Elapsed time : 12493.93s
+# 638
+noise : 0.7596
+Avg return : 212.1858
+Ball reward : 1.00s
+Elapsed time : 12517.70s
+# 639
+noise : 0.7591
+Avg return : 211.6204
+Ball reward : 4.56s
+Elapsed time : 12542.49s
+# 640
+noise : 0.7585
+Avg return : 215.3271
+Ball reward : 4.09s
+Elapsed time : 12567.01s
+# 641
+noise : 0.7581
+Avg return : 212.4769
+Ball reward : 1.06s
+Elapsed time : 12593.39s
+# 642
+noise : 0.7581
+Avg return : 214.5108
+Ball reward : 4.57s
+Elapsed time : 12617.08s
+# 643
+noise : 0.7575
+Avg return : 212.4741
+Ball reward : 1.04s
+Elapsed time : 12642.07s
+# 644
+noise : 0.7575
+Avg return : 212.7058
+Ball reward : 1.06s
+Elapsed time : 12668.00s
+# 645
+noise : 0.7575
+Avg return : 212.8516
+Ball reward : 2.79s
+Elapsed time : 12694.21s
+# 646
+noise : 0.7569
+Avg return : 213.2978
+Ball reward : 3.98s
+Elapsed time : 12719.51s
+# 647
+noise : 0.7564
+Avg return : 215.5752
+Ball reward : 4.94s
+Elapsed time : 12745.18s
+# 648
+noise : 0.7567
+Avg return : 216.2330
+Ball reward : 2.94s
+Elapsed time : 12770.54s
+# 649
+noise : 0.7555
+Avg return : 212.8321
+Ball reward : 4.98s
+Elapsed time : 12795.97s
+# 650
+noise : 0.7550
+Avg return : 212.4456
+Ball reward : 1.00s
+Elapsed time : 12821.73s
+# 651
+noise : 0.7549
+Avg return : 215.6500
+Ball reward : 2.13s
+Elapsed time : 12847.46s
+# 652
+noise : 0.7553
+Avg return : 215.4777
+Ball reward : 4.98s
+Elapsed time : 12872.63s
+# 653
+noise : 0.7557
+Avg return : 217.8709
+Ball reward : 3.46s
+Elapsed time : 12897.04s
+# 654
+noise : 0.7554
+Avg return : 218.4680
+Ball reward : 1.00s
+Elapsed time : 12920.97s
+# 655
+noise : 0.7557
+Avg return : 214.3025
+Ball reward : 1.00s
+Elapsed time : 12944.13s
+# 656
+noise : 0.7550
+Avg return : 214.8251
+Ball reward : 4.59s
+Elapsed time : 12967.33s
+# 657
+noise : 0.7546
+Avg return : 216.9842
+Ball reward : 4.09s
+Elapsed time : 12992.53s
+# 658
+noise : 0.7541
+Avg return : 214.3091
+Ball reward : 1.20s
+Elapsed time : 13016.98s
+# 659
+noise : 0.7537
+Avg return : 221.1767
+Ball reward : 3.65s
+Elapsed time : 13042.33s
+# 660
+noise : 0.7533
+Avg return : 215.6919
+Ball reward : 3.12s
+Elapsed time : 13066.46s
+# 661
+noise : 0.7526
+Avg return : 216.8346
+Ball reward : 4.75s
+Elapsed time : 13089.92s
+# 662
+noise : 0.7521
+Avg return : 217.8453
+Ball reward : 5.20s
+Elapsed time : 13114.22s
+# 663
+noise : 0.7524
+Avg return : 216.5781
+Ball reward : 1.00s
+Elapsed time : 13138.77s
+# 664
+noise : 0.7528
+Avg return : 216.5791
+Ball reward : 1.00s
+Elapsed time : 13163.08s
+# 665
+noise : 0.7523
+Avg return : 218.4151
+Ball reward : 3.17s
+Elapsed time : 13186.64s
+# 666
+noise : 0.7525
+Avg return : 216.1375
+Ball reward : 1.04s
+Elapsed time : 13209.97s
+# 667
+noise : 0.7527
+Avg return : 220.2862
+Ball reward : 4.94s
+Elapsed time : 13234.88s
+# 668
+noise : 0.7523
+Avg return : 216.7244
+Ball reward : 4.70s
+Elapsed time : 13259.34s
+# 669
+noise : 0.7523
+Avg return : 216.5456
+Ball reward : 3.74s
+Elapsed time : 13283.15s
+# 670
+noise : 0.7522
+Avg return : 219.4662
+Ball reward : 4.95s
+Elapsed time : 13307.29s
+# 671
+noise : 0.7521
+Avg return : 220.8990
+Ball reward : 1.98s
+Elapsed time : 13332.54s
+# 672
+noise : 0.7523
+Avg return : 216.6614
+Ball reward : 4.82s
+Elapsed time : 13356.71s
+# 673
+noise : 0.7516
+Avg return : 218.8633
+Ball reward : 3.18s
+Elapsed time : 13381.02s
+# 674
+noise : 0.7518
+Avg return : 218.3348
+Ball reward : 4.27s
+Elapsed time : 13405.43s
+# 675
+noise : 0.7517
+Avg return : 218.7204
+Ball reward : 3.95s
+Elapsed time : 13432.31s
+# 676
+noise : 0.7514
+Avg return : 221.1582
+Ball reward : 4.80s
+Elapsed time : 13456.80s
+# 677
+noise : 0.7510
+Avg return : 217.1785
+Ball reward : 4.60s
+Elapsed time : 13480.00s
+# 678
+noise : 0.7503
+Avg return : 219.8186
+Ball reward : 3.22s
+Elapsed time : 13503.71s
+# 679
+noise : 0.7500
+Avg return : 219.6870
+Ball reward : 2.00s
+Elapsed time : 13527.71s
+# 680
+noise : 0.7503
+Avg return : 218.5200
+Ball reward : 4.44s
+Elapsed time : 13553.28s
+# 681
+noise : 0.7500
+Avg return : 219.1188
+Ball reward : 4.88s
+Elapsed time : 13577.87s
+# 682
+noise : 0.7493
+Avg return : 219.4299
+Ball reward : 2.00s
+Elapsed time : 13601.24s
+# 683
+noise : 0.7491
+Avg return : 220.7067
+Ball reward : 3.67s
+Elapsed time : 13625.27s
+# 684
+noise : 0.7485
+Avg return : 222.2969
+Ball reward : 4.99s
+Elapsed time : 13651.52s
+# 685
+noise : 0.7478
+Avg return : 214.6846
+Ball reward : 2.36s
+Elapsed time : 13675.53s
+# 686
+noise : 0.7485
+Avg return : 216.7600
+Ball reward : 4.94s
+Elapsed time : 13699.58s
+# 687
+noise : 0.7482
+Avg return : 212.6091
+Ball reward : 4.49s
+Elapsed time : 13724.31s
+# 688
+noise : 0.7484
+Avg return : 219.2772
+Ball reward : 4.96s
+Elapsed time : 13749.60s
+# 689
+noise : 0.7491
+Avg return : 219.7538
+Ball reward : 3.25s
+Elapsed time : 13777.25s
+# 690
+noise : 0.7486
+Avg return : 216.4941
+Ball reward : 3.81s
+Elapsed time : 13801.32s
+# 691
+noise : 0.7477
+Avg return : 218.0710
+Ball reward : 4.27s
+Elapsed time : 13825.84s
+# 692
+noise : 0.7478
+Avg return : 216.0902
+Ball reward : 3.61s
+Elapsed time : 13850.96s
+# 693
+noise : 0.7478
+Avg return : 221.8536
+Ball reward : 4.71s
+Elapsed time : 13875.81s
+# 694
+noise : 0.7486
+Avg return : 220.2136
+Ball reward : 1.07s
+Elapsed time : 13900.95s
+# 695
+noise : 0.7485
+Avg return : 221.8580
+Ball reward : 1.70s
+Elapsed time : 13925.52s
+# 696
+noise : 0.7481
+Avg return : 221.3197
+Ball reward : 1.00s
+Elapsed time : 13949.57s
+# 697
+noise : 0.7478
+Avg return : 219.5643
+Ball reward : 4.30s
+Elapsed time : 13976.15s
+# 698
+noise : 0.7479
+Avg return : 221.3263
+Ball reward : 4.94s
+Elapsed time : 14005.33s
+# 699
+noise : 0.7467
+Avg return : 219.2937
+Ball reward : 4.66s
+Elapsed time : 14036.29s
+# 700
+noise : 0.7464
+Avg return : 219.3922
+Ball reward : 3.28s
+Elapsed time : 14065.97s
+# 701
+noise : 0.7463
+Avg return : 218.5431
+Ball reward : 2.30s
+Elapsed time : 14098.86s
+# 702
+noise : 0.7466
+Avg return : 218.9562
+Ball reward : 4.96s
+Elapsed time : 14125.00s
+# 703
+noise : 0.7467
+Avg return : 218.5098
+Ball reward : 2.04s
+Elapsed time : 14149.81s
+# 704
+noise : 0.7469
+Avg return : 220.8161
+Ball reward : 1.39s
+Elapsed time : 14178.35s
+# 705
+noise : 0.7468
+Avg return : 218.3411
+Ball reward : 1.36s
+Elapsed time : 14203.48s
+# 706
+noise : 0.7464
+Avg return : 218.5285
+Ball reward : 1.01s
+Elapsed time : 14229.37s
+# 707
+noise : 0.7458
+Avg return : 221.5973
+Ball reward : 1.19s
+Elapsed time : 14254.18s
+# 708
+noise : 0.7454
+Avg return : 222.7571
+Ball reward : 1.73s
+Elapsed time : 14279.33s
+# 709
+noise : 0.7454
+Avg return : 222.0892
+Ball reward : 3.89s
+Elapsed time : 14301.96s
+# 710
+noise : 0.7448
+Avg return : 222.2861
+Ball reward : 1.13s
+Elapsed time : 14326.68s
+# 711
+noise : 0.7450
+Avg return : 220.7641
+Ball reward : 1.06s
+Elapsed time : 14352.90s
+# 712
+noise : 0.7442
+Avg return : 219.3350
+Ball reward : 1.12s
+Elapsed time : 14378.77s
+# 713
+noise : 0.7433
+Avg return : 220.5118
+Ball reward : 4.93s
+Elapsed time : 14407.23s
+# 714
+noise : 0.7433
+Avg return : 223.6599
+Ball reward : 1.00s
+Elapsed time : 14432.04s
+# 715
+noise : 0.7435
+Avg return : 220.8976
+Ball reward : 2.97s
+Elapsed time : 14455.97s
+# 716
+noise : 0.7431
+Avg return : 222.3033
+Ball reward : 4.88s
+Elapsed time : 14479.79s
+# 717
+noise : 0.7427
+Avg return : 221.1703
+Ball reward : 2.58s
+Elapsed time : 14503.48s
+# 718
+noise : 0.7430
+Avg return : 222.8080
+Ball reward : 4.96s
+Elapsed time : 14527.65s
+# 719
+noise : 0.7427
+Avg return : 219.3579
+Ball reward : 3.73s
+Elapsed time : 14551.73s
+# 720
+noise : 0.7425
+Avg return : 219.7594
+Ball reward : 3.26s
+Elapsed time : 14575.68s
+# 721
+noise : 0.7422
+Avg return : 220.2052
+Ball reward : 4.61s
+Elapsed time : 14599.54s
+# 722
+noise : 0.7422
+Avg return : 221.1604
+Ball reward : 4.77s
+Elapsed time : 14623.58s
+# 723
+noise : 0.7419
+Avg return : 221.7928
+Ball reward : 1.13s
+Elapsed time : 14647.90s
+# 724
+noise : 0.7417
+Avg return : 220.2969
+Ball reward : 2.15s
+Elapsed time : 14672.28s
+# 725
+noise : 0.7417
+Avg return : 222.0893
+Ball reward : 3.14s
+Elapsed time : 14696.43s
+# 726
+noise : 0.7413
+Avg return : 221.5033
+Ball reward : 4.27s
+Elapsed time : 14720.31s
+# 727
+noise : 0.7409
+Avg return : 218.2633
+Ball reward : 3.61s
+Elapsed time : 14744.02s
+# 728
+noise : 0.7406
+Avg return : 223.1833
+Ball reward : 4.21s
+Elapsed time : 14767.94s
+# 729
+noise : 0.7403
+Avg return : 221.6285
+Ball reward : 4.79s
+Elapsed time : 14791.70s
+# 730
+noise : 0.7407
+Avg return : 219.4462
+Ball reward : 4.82s
+Elapsed time : 14815.69s
+# 731
+noise : 0.7404
+Avg return : 225.2791
+Ball reward : 3.96s
+Elapsed time : 14839.65s
+# 732
+noise : 0.7402
+Avg return : 221.8498
+Ball reward : 3.79s
+Elapsed time : 14863.79s
+# 733
+noise : 0.7397
+Avg return : 225.6035
+Ball reward : 1.00s
+Elapsed time : 14887.84s
+# 734
+noise : 0.7392
+Avg return : 221.3310
+Ball reward : 4.95s
+Elapsed time : 14911.91s
+# 735
+noise : 0.7392
+Avg return : 220.4949
+Ball reward : 5.76s
+Elapsed time : 14935.95s
+# 736
+noise : 0.7390
+Avg return : 224.1572
+Ball reward : 1.02s
+Elapsed time : 14960.29s
+# 737
+noise : 0.7389
+Avg return : 223.9083
+Ball reward : 4.95s
+Elapsed time : 14984.08s
+# 738
+noise : 0.7394
+Avg return : 220.8108
+Ball reward : 2.78s
+Elapsed time : 15027.23s
+# 739
+noise : 0.7395
+Avg return : 222.6309
+Ball reward : 1.40s
+Elapsed time : 15092.61s
+# 740
+noise : 0.7390
+Avg return : 222.0697
+Ball reward : 2.33s
+Elapsed time : 15141.50s
+# 741
+noise : 0.7383
+Avg return : 220.0046
+Ball reward : 1.28s
+Elapsed time : 15181.09s
+# 742
+noise : 0.7381
+Avg return : 222.3580
+Ball reward : 4.44s
+Elapsed time : 15219.19s
+# 743
+noise : 0.7379
+Avg return : 220.7922
+Ball reward : 2.34s
+Elapsed time : 15255.70s
+# 744
+noise : 0.7373
+Avg return : 218.0473
+Ball reward : 1.54s
+Elapsed time : 15291.96s
+# 745
+noise : 0.7370
+Avg return : 220.3399
+Ball reward : 1.30s
+Elapsed time : 15328.71s
+# 746
+noise : 0.7371
+Avg return : 219.5923
+Ball reward : 1.59s
+Elapsed time : 15370.51s
+# 747
+noise : 0.7371
+Avg return : 221.6925
+Ball reward : 2.04s
+Elapsed time : 15410.50s
+# 748
+noise : 0.7370
+Avg return : 216.8953
+Ball reward : 4.42s
+Elapsed time : 15448.87s
+# 749
+noise : 0.7363
+Avg return : 216.3012
+Ball reward : 3.38s
+Elapsed time : 15488.15s
+# 750
+noise : 0.7366
+Avg return : 216.4318
+Ball reward : 3.51s
+Elapsed time : 15525.11s
+# 751
+noise : 0.7363
+Avg return : 218.2469
+Ball reward : 4.82s
+Elapsed time : 15562.27s
+# 752
+noise : 0.7360
+Avg return : 218.4749
+Ball reward : 2.44s
+Elapsed time : 15601.35s
+# 753
+noise : 0.7360
+Avg return : 219.3193
+Ball reward : 4.19s
+Elapsed time : 15646.96s
+# 754
+noise : 0.7353
+Avg return : 217.8321
+Ball reward : 1.04s
+Elapsed time : 15692.38s
+# 755
+noise : 0.7346
+Avg return : 220.7215
+Ball reward : 4.84s
+Elapsed time : 15721.81s
+# 756
+noise : 0.7347
+Avg return : 216.2542
+Ball reward : 3.40s
+Elapsed time : 15744.67s
+# 757
+noise : 0.7339
+Avg return : 219.6272
+Ball reward : 1.88s
+Elapsed time : 15769.07s
+# 758
+noise : 0.7336
+Avg return : 221.0458
+Ball reward : 4.29s
+Elapsed time : 15791.46s
+# 759
+noise : 0.7333
+Avg return : 219.4863
+Ball reward : 1.42s
+Elapsed time : 15816.96s
+# 760
+noise : 0.7333
+Avg return : 220.1185
+Ball reward : 2.46s
+Elapsed time : 15842.22s
+# 761
+noise : 0.7332
+Avg return : 215.6720
+Ball reward : 4.34s
+Elapsed time : 15868.14s
+# 762
+noise : 0.7331
+Avg return : 214.4718
+Ball reward : 1.93s
+Elapsed time : 15893.22s
+# 763
+noise : 0.7330
+Avg return : 218.1939
+Ball reward : 4.87s
+Elapsed time : 15917.41s
+# 764
+noise : 0.7324
+Avg return : 216.7105
+Ball reward : 1.00s
+Elapsed time : 15939.37s
+# 765
+noise : 0.7325
+Avg return : 223.2317
+Ball reward : 1.00s
+Elapsed time : 15962.45s
+# 766
+noise : 0.7327
+Avg return : 218.8447
+Ball reward : 3.79s
+Elapsed time : 15985.04s
+# 767
+noise : 0.7328
+Avg return : 217.8768
+Ball reward : 4.97s
+Elapsed time : 16007.46s
+# 768
+noise : 0.7327
+Avg return : 223.0420
+Ball reward : 4.73s
+Elapsed time : 16029.95s
+# 769
+noise : 0.7325
+Avg return : 215.8097
+Ball reward : 4.98s
+Elapsed time : 16052.93s
+# 770
+noise : 0.7318
+Avg return : 221.6669
+Ball reward : 4.84s
+Elapsed time : 16074.90s
+# 771
+noise : 0.7314
+Avg return : 221.2342
+Ball reward : 4.56s
+Elapsed time : 16100.30s
+# 772
+noise : 0.7315
+Avg return : 220.2067
+Ball reward : 2.26s
+Elapsed time : 16126.40s
+# 773
+noise : 0.7315
+Avg return : 223.2510
+Ball reward : 4.46s
+Elapsed time : 16149.53s
+# 774
+noise : 0.7316
+Avg return : 224.4040
+Ball reward : 4.51s
+Elapsed time : 16172.38s
+# 775
+noise : 0.7312
+Avg return : 223.9303
+Ball reward : 4.34s
+Elapsed time : 16195.41s
+# 776
+noise : 0.7315
+Avg return : 223.1830
+Ball reward : 5.00s
+Elapsed time : 16217.85s
+# 777
+noise : 0.7312
+Avg return : 222.5915
+Ball reward : 2.14s
+Elapsed time : 16241.03s
+# 778
+noise : 0.7307
+Avg return : 224.7396
+Ball reward : 1.23s
+Elapsed time : 16263.22s
+# 779
+noise : 0.7304
+Avg return : 222.9214
+Ball reward : 4.99s
+Elapsed time : 16286.00s
+# 780
+noise : 0.7296
+Avg return : 223.2649
+Ball reward : 1.72s
+Elapsed time : 16313.34s
+# 781
+noise : 0.7294
+Avg return : 228.6341
+Ball reward : 4.24s
+Elapsed time : 16339.64s
+# 782
+noise : 0.7292
+Avg return : 226.1920
+Ball reward : 4.94s
+Elapsed time : 16361.65s
+# 783
+noise : 0.7288
+Avg return : 222.1644
+Ball reward : 2.71s
+Elapsed time : 16379.96s
+# 784
+noise : 0.7280
+Avg return : 224.9655
+Ball reward : 5.58s
+Elapsed time : 16402.59s
+# 785
+noise : 0.7276
+Avg return : 226.3387
+Ball reward : 4.01s
+Elapsed time : 16429.74s

@@ -26,8 +26,6 @@ temp2 = MultiVariateNormal.entropy
 MultiVariateNormal.entropy = lambda self: temp2(self).sum(-1)
 MultiVariateNormal.mode = lambda self: self.mean
 
-curdist = 5.
-
 
 class Model(nn.Module):
     def __init__(self, num_states, num_actions):
@@ -184,7 +182,7 @@ def worker(rnn_len, proc_num, state_sender, result_sender, action_receiver, rese
         state_sender.send(state)
         action = action_receiver.recv()
         state, reward, is_done, _ = env.step(action)
-        result_sender.send((reward, is_done, proc_num))
+        result_sender.send((reward[0], reward[1], is_done, proc_num))
 
 
 def td_and_gae_worker(epi):
@@ -251,7 +249,7 @@ class PPO(object):
 
         self.saved = False
         # self.save_directory = self.env_name + '_' + 'model_'+time.strftime("%Y%m%d%H%M") + '/'
-        self.save_directory = self.env_name + '_curricu' + '/'
+        self.save_directory = self.env_name + '_plus_seperate1000_2' + '/'
         if not self.saved and not os.path.exists(self.save_directory) and not visualize_only:
             os.makedirs(self.save_directory)
             self.saved = True
@@ -340,7 +338,8 @@ class PPO(object):
         for receiver in alive_receivers:
             if receiver.poll(20):
                 recv_data = receiver.recv()
-                status[recv_data[2]] = (recv_data[0], recv_data[1])
+                self.ballreward = recv_data[1]
+                status[recv_data[3]] = (recv_data[0], recv_data[2])
 
         for j in range(len(status)):
             if terminated[j]:
@@ -541,7 +540,7 @@ if __name__ == "__main__":
     if len(sys.argv) > 3:
         print("load {}".format(sys.argv[3]))
         ppo.LoadModel(sys.argv[3])
-    # ppo.LoadModel('onlystr.pt')
+    ppo.LoadModel('./postpost54_plus_seperate1000_2/ball.pt')
     # parser = argparse.ArgumentParser()
     # parser.add_argument('-m','--model',help='actor model directory')
     # args =parser.parse_args()
@@ -552,10 +551,13 @@ if __name__ == "__main__":
     steps = []
     # print('num states: {}, num actions: {}'.format(ppo.env.GetNumState(),ppo.env.GetNumAction()))
 
-    curdist = 11
+    curdist = 18.44
+    ballreward = 0
 
     max_avg_steps = 0
     max_avg_reward = 0.
+    max_ball_reward = 0.
+    max_ball_dist = 18.43
 
     for _i in range(500000):
         ppo.Train()
@@ -564,14 +566,17 @@ if __name__ == "__main__":
         _reward, _step = ppo.Evaluate()
         _rewards.append(_reward)
 
-
+        ballreward = ppo.ballreward
         print("current reward: ", _reward)
+        print("current ballreward: ", ballreward)
         print("current dist: ", curdist)
         print("")
 
 
-        if _reward > 50.0:
+        if ballreward > 400:
             curdist += 0.05
+
+        curdist = min(18.44, curdist)
 
         steps.append(_step)
         if max_avg_steps < _step or max_avg_reward < _reward:
@@ -582,10 +587,20 @@ if __name__ == "__main__":
             if max_avg_reward < _reward:
                 max_avg_reward = _reward
 
+        if max_avg_steps < _step or (max_ball_dist <= curdist and max_ball_reward < ballreward):
+            ppo.SaveModel('ball')
+            os.system(f'cp {ppo.save_directory}ball.pt {ppo.save_directory}{_i+1:05d}.pt')
+            if max_avg_steps < _step:
+                max_avg_steps = _step
+            if max_ball_reward < ballreward:
+                max_ball_dist = curdist
+                max_ball_reward = ballreward
+
         if (_i+1) % 10 == 0:
             ppo.SaveModel('latest')
 
         # Plot(np.asarray(rewards),'reward',1,False)
         # print("Elapsed time : {:.2f}s".format(time.time() - tic))
+        ppo.log_file.write("Ball reward : {:.2f}s".format(ballreward) + "\n")
         ppo.log_file.write("Elapsed time : {:.2f}s".format(time.time() - tic) + "\n")
         ppo.log_file.flush()
