@@ -573,8 +573,8 @@ if __name__ == "__main__":
         print("")
 
 
-        if ballreward > 400:
-            curdist += 0.05
+        #if ballreward > 400:
+        #    curdist += 0.05
 
         curdist = min(18.44, curdist)
 
@@ -587,7 +587,7 @@ if __name__ == "__main__":
             if max_avg_reward < _reward:
                 max_avg_reward = _reward
 
-        if max_avg_steps < _step or (max_ball_dist <= curdist and max_ball_reward < ballreward):
+        if max_avg_steps < _step or (max_ball_dist - curdist <= 0.001 and max_ball_reward < ballreward):
             ppo.SaveModel('ball')
             os.system(f'cp {ppo.save_directory}ball.pt {ppo.save_directory}{_i+1:05d}.pt')
             if max_avg_steps < _step:
