@@ -249,7 +249,7 @@ class PPO(object):
 
         self.saved = False
         # self.save_directory = self.env_name + '_' + 'model_'+time.strftime("%Y%m%d%H%M") + '/'
-        self.save_directory = self.env_name + '_plus_seperate1000_2' + '/'
+        self.save_directory = self.env_name + '_times_sep100gogo' + '/'
         if not self.saved and not os.path.exists(self.save_directory) and not visualize_only:
             os.makedirs(self.save_directory)
             self.saved = True
@@ -540,7 +540,7 @@ if __name__ == "__main__":
     if len(sys.argv) > 3:
         print("load {}".format(sys.argv[3]))
         ppo.LoadModel(sys.argv[3])
-    ppo.LoadModel('./postpost54_plus_seperate1000_2/ball.pt')
+    # ppo.LoadModel('./postpost54_plus_seperate1000_3/max.pt')
     # parser = argparse.ArgumentParser()
     # parser.add_argument('-m','--model',help='actor model directory')
     # args =parser.parse_args()
@@ -551,13 +551,13 @@ if __name__ == "__main__":
     steps = []
     # print('num states: {}, num actions: {}'.format(ppo.env.GetNumState(),ppo.env.GetNumAction()))
 
-    curdist = 18.44
+    curdist = 11.
     ballreward = 0
 
     max_avg_steps = 0
     max_avg_reward = 0.
     max_ball_reward = 0.
-    max_ball_dist = 18.43
+    max_ball_dist = 11.
 
     for _i in range(500000):
         ppo.Train()
@@ -573,8 +573,8 @@ if __name__ == "__main__":
         print("")
 
 
-        #if ballreward > 400:
-        #    curdist += 0.05
+        if ballreward > 500:
+            curdist += 0.05
 
         curdist = min(18.44, curdist)
 
@@ -587,9 +587,9 @@ if __name__ == "__main__":
             if max_avg_reward < _reward:
                 max_avg_reward = _reward
 
-        if max_avg_steps < _step or (max_ball_dist - curdist <= 0.001 and max_ball_reward < ballreward):
+        if max_avg_steps < _step or (max_ball_dist - curdist < 0.09 and ballreward > 500):
             ppo.SaveModel('ball')
-            os.system(f'cp {ppo.save_directory}ball.pt {ppo.save_directory}{_i+1:05d}.pt')
+            # os.system(f'cp {ppo.save_directory}ball.pt {ppo.save_directory}{_i+1:05d}.pt')
             if max_avg_steps < _step:
                 max_avg_steps = _step
             if max_ball_reward < ballreward:
