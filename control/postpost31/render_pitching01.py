@@ -28,7 +28,7 @@ def main():
 
         # ppo.LoadModel('postpost31_model_202310060030/' + 'max.pt')
 
-        ppo.LoadModel('postpost31_model_202310112129/' + 'max.pt')
+        ppo.LoadModel('postpost31_gogogo/' + 'latest.pt')
         
         # ppo.LoadModel('pitching_ball_mound_max.pt')
         pass
@@ -39,7 +39,7 @@ def main():
 
 
     ppo.env.flag_rsi(False)
-    ppo.env.reset()
+    ppo.env.reset(17.9)
     ppo.env.ref_skel.set_positions(ppo.env.ref_motion.get_q(ppo.env.current_frame))
 
     # print("motion length:", ppo.env.motion_len)

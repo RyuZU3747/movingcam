@@ -26,7 +26,7 @@ def main():
         # ppo.LoadModel('postpost65_model_202309251430/' + 'max.pt')
         # ppo.LoadModel('postpost65_model_202309271442/' + 'max.pt')
         # ppo.LoadModel('postpost65_model_202310041425/' + 'max.pt')
-        ppo.LoadModel('postpost65_model_202310112132/' + 'max.pt')
+        ppo.LoadModel('postpost65_gogogo/' + 'max.pt')
         
 
         # ppo.LoadModel('pitching01_model_202309150032/' + '05766.pt')
@@ -40,7 +40,7 @@ def main():
 
 
     ppo.env.flag_rsi(False)
-    ppo.env.reset()
+    ppo.env.reset(18.44)
     ppo.env.ref_skel.set_positions(ppo.env.ref_motion.get_q(ppo.env.current_frame))
 
     # print("motion length:", ppo.env.motion_len)

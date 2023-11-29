@@ -149,7 +149,7 @@ class ReplayBuffer(object):
         self.buffer.clear()
 
 
-def worker(rnn_len, proc_num, state_sender, result_sender, action_receiver, reset_receiver, motion_receiver):
+def worker(rnn_len, proc_num, state_sender, result_sender, action_receiver, reset_receiver, dist_receiver, motion_receiver):
     """
 
     :type rnn_len: int
@@ -172,8 +172,9 @@ def worker(rnn_len, proc_num, state_sender, result_sender, action_receiver, rese
     state = None
     while True:
         reset_flag = reset_receiver.recv()
+        send_dist = dist_receiver.recv()
         if reset_flag == 1:
-            state = env.reset()
+            state = env.reset(send_dist)
             # state = env.hard_reset()
         elif reset_flag == 2:
             state = env.hard_reset()
@@ -181,7 +182,7 @@ def worker(rnn_len, proc_num, state_sender, result_sender, action_receiver, rese
         state_sender.send(state)
         action = action_receiver.recv()
         state, reward, is_done, _ = env.step(action)
-        result_sender.send((reward, is_done, proc_num))
+        result_sender.send((reward[0], reward[1], is_done, proc_num))
 
 
 def td_and_gae_worker(epi):
@@ -247,7 +248,7 @@ class PPO(object):
         self.num_episode = 0
 
         self.saved = False
-        self.save_directory = self.env_name + '_' + 'model_'+time.strftime("%Y%m%d%H%M") + '/'
+        self.save_directory = self.env_name + '_' + 'gogogo' + '/'
         if not self.saved and not os.path.exists(self.save_directory) and not visualize_only:
             os.makedirs(self.save_directory)
             self.saved = True
@@ -266,6 +267,7 @@ class PPO(object):
         self.result_receiver = []  # type: List[Connection]
         self.action_sender = []  # type: List[Connection]
         self.reset_sender = []  # type: List[Connection]
+        self.dist_sender = []  # type: List[Connection]
         self.motion_sender = []  # type: List[Connection]
         self.envs = []  # type: List[Process]
 
@@ -277,14 +279,16 @@ class PPO(object):
             r_s, r_r = Pipe()
             a_s, a_r = Pipe()
             reset_s, reset_r = Pipe()
+            dist_s, dist_r = Pipe()
             motion_s, motion_r = Pipe()
-            p = Process(target=worker, args=(-1, slave_idx, s_s, r_s, a_r, reset_r, motion_r))
+            p = Process(target=worker, args=(-1, slave_idx, s_s, r_s, a_r, reset_r, dist_r, motion_r))
             self.state_sender.append(s_s)
             self.result_sender.append(r_s)
             self.state_receiver.append(s_r)
             self.result_receiver.append(r_r)
             self.action_sender.append(a_s)
             self.reset_sender.append(reset_s)
+            self.dist_sender.append(dist_s)
             self.motion_sender.append(motion_s)
             self.envs.append(p)
             p.start()
@@ -297,14 +301,16 @@ class PPO(object):
         r_s, r_r = Pipe()
         a_s, a_r = Pipe()
         reset_s, reset_r = Pipe()
+        dist_s, dist_r = Pipe()
         motion_s, motion_r = Pipe()
-        p = Process(target=worker, args=(-1, slave_idx, s_s, r_s, a_r, reset_r, motion_r))
+        p = Process(target=worker, args=(-1, slave_idx, s_s, r_s, a_r, reset_r, dist_r, motion_r))
         self.state_sender[slave_idx] = s_s
         self.result_sender[slave_idx] = r_s
         self.state_receiver[slave_idx] = s_r
         self.result_receiver[slave_idx] = r_r
         self.action_sender[slave_idx] = a_s
         self.reset_sender[slave_idx] = reset_s
+        self.dist_sender[slave_idx] = dist_s
         self.motion_sender[slave_idx] = motion_s
         self.envs[slave_idx] = p
         p.start()
@@ -331,7 +337,8 @@ class PPO(object):
         for receiver in alive_receivers:
             if receiver.poll(20):
                 recv_data = receiver.recv()
-                status[recv_data[2]] = (recv_data[0], recv_data[1])
+                self.ballreward = recv_data[1]
+                status[recv_data[3]] = (recv_data[0], recv_data[2])
 
         for j in range(len(status)):
             if terminated[j]:
@@ -351,9 +358,11 @@ class PPO(object):
     def envs_resets(self, reset_flag):
         for i in range(len(self.reset_sender)):
             self.reset_sender[i].send(reset_flag)
+            self.dist_sender[i].send(curdist)
 
     def envs_reset(self, i, reset_flag):
         self.reset_sender[i].send(reset_flag)
+        self.dist_sender[i].send(curdist)
 
     def SaveModel(self, filename):
         torch.save(self.model.state_dict(), self.save_directory + f'{filename}.pt')
@@ -544,8 +553,13 @@ if __name__ == "__main__":
     steps = []
     # print('num states: {}, num actions: {}'.format(ppo.env.GetNumState(),ppo.env.GetNumAction()))
 
+    curdist = 11
+    ballreward = 0
+
     max_avg_steps = 0
     max_avg_reward = 0.
+    max_ball_reward = 0.
+    max_ball_dist = 11.
 
     for _i in range(500000):
         ppo.Train()
@@ -554,6 +568,20 @@ if __name__ == "__main__":
         _reward, _step = ppo.Evaluate()
         _rewards.append(_reward)
         steps.append(_step)
+
+
+        ballreward = ppo.ballreward
+        print("current reward: ", _reward)
+        print("current ballreward: ", ballreward)
+        print("current dist: ", curdist)
+        print("")
+        
+        if ballreward > 400:
+            curdist += 0.05
+
+        curdist = min(18.44, curdist)
+
+
         if max_avg_steps < _step or max_avg_reward < _reward:
             ppo.SaveModel('max')
             os.system(f'cp {ppo.save_directory}max.pt {ppo.save_directory}{_i+1:05d}.pt')
@@ -562,10 +590,22 @@ if __name__ == "__main__":
             if max_avg_reward < _reward:
                 max_avg_reward = _reward
 
+
+        if max_avg_steps < _step or (max_ball_dist - curdist < 0.09 and ballreward > max_ball_reward):
+            ppo.SaveModel('ball')
+            # os.system(f'cp {ppo.save_directory}ball.pt {ppo.save_directory}{_i+1:05d}.pt')
+            if max_avg_steps < _step:
+                max_avg_steps = _step
+            if max_ball_reward < ballreward:
+                max_ball_dist = curdist
+                max_ball_reward = ballreward
+
+
         if (_i+1) % 10 == 0:
             ppo.SaveModel('latest')
 
         # Plot(np.asarray(rewards),'reward',1,False)
         # print("Elapsed time : {:.2f}s".format(time.time() - tic))
+        ppo.log_file.write("Ball reward : {:.2f}s".format(ballreward) + "\n")
         ppo.log_file.write("Elapsed time : {:.2f}s".format(time.time() - tic) + "\n")
         ppo.log_file.flush()

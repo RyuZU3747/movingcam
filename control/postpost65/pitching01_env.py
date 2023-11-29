@@ -11,8 +11,8 @@ from gym.utils import seeding
 import glob
 import json
 
-PRINT_MODE = True
-# PRINT_MODE = False
+# PRINT_MODE = True
+PRINT_MODE = False
 
 def exp_reward_term(w, exp_w, v):
     norm_sq = v * v if isinstance(v, float) else sum(_v * _v for _v in v)
@@ -54,9 +54,9 @@ class SkateDartEnv(gym.Env):
 
         self.ball = self.world.skeletons[2]
 
-        self.ball_released_frame = 35
+        self.ball_released_frame = 38
 
-        self.target_zone_pos = np.array([0., 1., 18.44])
+        self.target_zone_pos = np.array([0., 1., 11.])
         # self.target_zone_pos = np.array([0., 1., 3.])
 
         self.weld_constraint = None
@@ -64,11 +64,11 @@ class SkateDartEnv(gym.Env):
         self.rsi = True
 
         # set self collision
-        # self.skel.set_self_collision_check(True)
-        # self.skel.set_adjacent_body_check(False)
-        # self.skel.body('h_neck').set_collidable(False)
-        # self.skel.body('h_scapula_left').set_collidable(False)
-        # self.skel.body('h_scapula_right').set_collidable(False)
+        self.skel.set_self_collision_check(True)
+        self.skel.set_adjacent_body_check(False)
+        self.skel.body('h_neck').set_collidable(False)
+        self.skel.body('h_scapula_left').set_collidable(False)
+        self.skel.body('h_scapula_right').set_collidable(False)
 
         # set dof limit
         # q_max = np.zeros(self.skel.ndofs)
@@ -354,11 +354,11 @@ class SkateDartEnv(gym.Env):
 
         reward = r_p + r_v + r_fc + r_up + r_torque + r_e
         # reward = 0
-        r_root_ori = exp_reward_term(self.w_root_ori, self.exp_root_ori,
-                                     [1. - np.dot(self.skel.body(0).world_transform()[:3, 2], mm.unitZ())])
-        reward = (1. - self.w_root_ori) * reward + r_root_ori
+        # r_root_ori = exp_reward_term(self.w_root_ori, self.exp_root_ori,
+        #                              [1. - np.dot(self.skel.body(0).world_transform()[:3, 2], mm.unitZ())])
+        # reward = (1. - self.w_root_ori) * reward + r_root_ori
 
-
+        ballreward = 0.001
         #add strike reward
         dis_list = []
         if self.ball_released_frame < self.current_frame:
@@ -382,9 +382,10 @@ class SkateDartEnv(gym.Env):
             mean_dis = np.mean(np.asarray(dis_list))
             # print("mean_dis: ", mean_dis)
             min_dis = min(dis_list)
-            print("min_dis: ", min_dis)
+            # print("min_dis: ", min_dis)
             r_strike = exp_reward_term(self.w_strike, self.exp_strike, min_dis)
-            reward = (1. - self.w_strike) * reward + r_strike
+            # reward = (1. - self.w_strike) * reward + r_strike
+            ballreward += r_strike
 
         # target_speed = [30, 50, 70, 100, 120, 150]
         mound_to_target = np.array(self.target_zone_pos - self.ball.com())
@@ -404,10 +405,11 @@ class SkateDartEnv(gym.Env):
 
         if self.ball_released_frame < self.current_frame:
             r_ball_direction = exp_reward_term(self.w_ball_dir, self.exp_ball_dir, [1- np.dot(mm.normalize(self.ball.com_velocity()), mm.normalize(self.target_zone_pos - self.ball.com()))])
-            reward = (1. - self.w_ball_dir) * reward + r_ball_direction
+            # reward = (1. - self.w_ball_dir) * reward + r_ball_direction
+            # ballreward += r_ball_direction
 
-            print("speed: ", self.ball.com_velocity(), self.ball.com_velocity()[2])
-            print("position: ", self.ball.com())
+            # print("speed: ", self.ball.com_velocity(), self.ball.com_velocity()[2])
+            # print("position: ", self.ball.com())
             # ball_speed = self.ball.com_velocity()[2]
             
             # if abs(min_dis) < 4.:
@@ -415,11 +417,13 @@ class SkateDartEnv(gym.Env):
             #         target_speed.pop
             #     r_ball_speed = exp_reward_term(self.w_ball_speed, self.exp_ball_speed, [target_speed[0]-ball_speed])
             #     reward = (1. - self.w_ball_speed) * reward + r_ball_speed
-
-
-
+        # print(ballreward)
+        ballreward *= 1000
+        if self.ball.com()[2] < self.target_zone_pos[2]+0.3:
+            reward = reward * ballreward
+        reward *= self.target_zone_pos[2]
             
-        return reward
+        return reward, ballreward
 
     def is_done(self):
         if self.is_foot_contact_same > 10:
@@ -499,10 +503,14 @@ class SkateDartEnv(gym.Env):
         skel_pelvis_offset[1] = 0.
         self.ref_motion.translate_by_offset(skel_pelvis_offset)
 
-    def reset(self):
+    def reset(self, dist):
         self.world.reset()
         self.ref_motion.reset_root_trajectory_postpost65(self.ref_skel)
         self.ref_motion.refine_dqs(self.ref_skel)
+
+        dist = min(dist, 18.44)
+        self.target_zone_pos = np.array([0., 1., dist])
+
         self.continue_from_frame(0)
         # self.continue_from_frame(randrange(self.motion_len - 1) if self.rsi else 0)
         self.skel.set_positions(self.ref_motion.get_q(self.current_frame))
