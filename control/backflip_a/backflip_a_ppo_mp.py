@@ -1,4 +1,3 @@
-from typing import List, Tuple
 import numpy as np
 
 import pydart2 as pydart
@@ -25,6 +24,7 @@ MultiVariateNormal.log_prob = lambda self, val: temp(self, val).sum(-1, keepdim=
 temp2 = MultiVariateNormal.entropy
 MultiVariateNormal.entropy = lambda self: temp2(self).sum(-1)
 MultiVariateNormal.mode = lambda self: self.mean
+height = 0.05
 
 
 class Model(nn.Module):
@@ -148,7 +148,7 @@ class ReplayBuffer(object):
         self.buffer.clear()
 
 
-def worker(rnn_len, proc_num, state_sender, result_sender, action_receiver, reset_receiver, motion_receiver):
+def worker(rnn_len, proc_num, state_sender, result_sender, action_receiver, reset_receiver, height_receiver, motion_receiver):
     """
 
     :type rnn_len: int
@@ -156,7 +156,7 @@ def worker(rnn_len, proc_num, state_sender, result_sender, action_receiver, rese
     :type result_sender: Connection
     :type state_sender: Connection
     :type action_receiver: Connection
-    :type reset_receiver: Connection
+    :type reset_receiver: Connectionw
     :type motion_receiver: Connection
     :return:
     """
@@ -169,10 +169,13 @@ def worker(rnn_len, proc_num, state_sender, result_sender, action_receiver, rese
     env = SkateDartEnv()
 
     state = None
+
+
     while True:
         reset_flag = reset_receiver.recv()
+        recvheight = height_receiver.recv()
         if reset_flag == 1:
-            state = env.reset()
+            state = env.reset(recvheight)
         elif reset_flag == 2:
             state = env.hard_reset()
 
@@ -259,6 +262,7 @@ class PPO(object):
         self.result_receiver = []  # type: List[Connection]
         self.action_sender = []  # type: List[Connection]
         self.reset_sender = []  # type: List[Connection]
+        self.height_sender = []
         self.motion_sender = []  # type: List[Connection]
         self.envs = []  # type: List[Process]
 
@@ -270,14 +274,16 @@ class PPO(object):
             r_s, r_r = Pipe()
             a_s, a_r = Pipe()
             reset_s, reset_r = Pipe()
+            height_s, height_r = Pipe()
             motion_s, motion_r = Pipe()
-            p = Process(target=worker, args=(-1, slave_idx, s_s, r_s, a_r, reset_r, motion_r))
+            p = Process(target=worker, args=(-1, slave_idx, s_s, r_s, a_r, reset_r, height_r, motion_r)) # make thread
             self.state_sender.append(s_s)
             self.result_sender.append(r_s)
             self.state_receiver.append(s_r)
             self.result_receiver.append(r_r)
             self.action_sender.append(a_s)
             self.reset_sender.append(reset_s)
+            self.height_sender.append(height_s)
             self.motion_sender.append(motion_s)
             self.envs.append(p)
             p.start()
@@ -338,9 +344,11 @@ class PPO(object):
     def envs_resets(self, reset_flag):
         for i in range(len(self.reset_sender)):
             self.reset_sender[i].send(reset_flag)
+            self.height_sender[i].send(height)
 
     def envs_reset(self, i, reset_flag):
         self.reset_sender[i].send(reset_flag)
+        self.height_sender[i].send(height)
 
     def SaveModel(self, filename):
         torch.save(self.model.state_dict(), self.save_directory + f'{filename}.pt')
@@ -493,6 +501,8 @@ class PPO(object):
         self.summary_writer.add_scalar('noise', self.model.log_std.exp().mean(), self.num_evaluation)
         self.summary_writer.add_scalar('return', self.sum_return / self.num_episode, self.num_evaluation)
         self.num_evaluation += 1
+        print(self.sum_return/self.num_episode)
+
         return self.sum_return/self.num_episode, 0
 
     def print(self, s):
@@ -500,12 +510,13 @@ class PPO(object):
             self.log_file.write(s+"\n")
 
 
+
 if __name__ == "__main__":
     import sys
     pydart.init()
     tic = time.time()
     if len(sys.argv) < 2:
-        ppo = PPO('backflip_a_christmas', 16)
+        ppo = PPO('backflip_a_curriculum', 16)
     else:
         ppo = PPO(sys.argv[1], int(sys.argv[2]))
 
@@ -515,7 +526,6 @@ if __name__ == "__main__":
 
     _rewards = []
     steps = []
-
     max_avg_steps = 0
     max_avg_reward = 0.
 
@@ -523,6 +533,9 @@ if __name__ == "__main__":
         ppo.Train()
         ppo.log_file.write('# {}'.format(_i+1) + "\n")
         _reward, _step = ppo.Evaluate()
+        if _reward > 50.0:
+            height += 0.05
+        print("current height is :", min(2.0, height))
         _rewards.append(_reward)
         steps.append(_step)
         if max_avg_steps < _step or max_avg_reward < _reward:

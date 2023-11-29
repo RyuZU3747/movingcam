@@ -9,6 +9,7 @@ import gym.spaces
 from gym.utils import seeding
 import glob
 import json
+import copy
 
 
 PRINT_MODE = True
@@ -36,21 +37,58 @@ class SkateDartEnv(gym.Env):
         self.skel = self.world.skeletons[1]
         self.Kp, self.Kd = 600., 49.
 
+        # self.rand_height = int(np.random.randint(70,100)) / 100
+        self.rand_height = 0.01
+        self.count = 0
+
         self.ref_world = pydart.World(1./300., cur_path+'/../../data/skel/human_mass_limited_dof_v2.skel')
         self.ref_skel = self.ref_world.skeletons[1]
         self.ref_motion = DartSkelMotion()
         self.ref_motion.load(cur_path + '/backflip_a.skmo')
-        self.ref_motion.reset_root_trajectory_backflip_a(self.ref_skel)
+        self.ref_motion.reset_root_trajectory_backflip_a(self.ref_skel, self.rand_height)
         self.ref_motion.refine_dqs(self.ref_skel)
         self.step_per_frame = 10
 
         self.rsi = True
 
+
+        self.height_hat_list = [self.rand_height, 0.01]
+        self.box_height_mean = copy.deepcopy(self.height_hat_list)
+
+        self.box_offset = 0.0
+
+        # draw box
+        # add box([name], [size], [color])
+        self.box0_size = [1.0, self.height_hat_list[0], 0.6]
+        # self.box1_size = [1.0, self.height_hat_list[1], 0.4]
+        # self.box1_size = [5, self.height_hat_list[1], 5]
+
+        self.world.skeletons[0].add_box("box0", self.box0_size, [0.6, 0.6, 0.6])
+        # self.world.skeletons[0].add_box("box1", self.box1_size, [0.6, 0.6, 0.6])
+
+        # x y z
+        self.box_pos = []
+        self.box_pos.append(np.array([0., 0.5 * self.height_hat_list[0], 0.0]))
+        # self.box_pos.append(np.array([0., 0.5 * self.height_hat_list[1], -1.0]))
+
+        self.box_pos_z_mean = []
+        for ii in range(len(self.box_pos)):
+            self.box_pos_z_mean.append(self.box_pos[ii][2])
+
+
         self.w_p = 0.35
         self.w_v = 0.1
-        self.w_up = 0.2
-        self.w_fc = 0.25
+        self.w_up = 0.3
+        self.w_fc = 0.15
         self.w_torque = 0.1
+
+        self.w_h = 0.2 #0.5
+        self.w_par = 0.2 #0.3
+        self.w_exp_h = 0.1
+        self.exp_h = 15.
+        self.exp_par = 5.
+        self.exp_exp_h = 5.
+
 
         self.exp_p = 2. * 6.
         self.exp_v = 0.1*6.
@@ -196,6 +234,64 @@ class SkateDartEnv(gym.Env):
 
         reward = r_p + r_v + r_fc + r_up + r_torque
 
+
+        self.rf_contact_end_frame1 = 30
+        self.lf_contact_start_frame2 = 50
+        self.lf_contact_end_frame2 = 75
+
+        # parabola hint
+        # parabola_hint_ranges = [
+        #     (self.rf_contact_end_frame1, self.lf_contact_start_frame2, ['h_heel_left'], 1)]
+        # for parabola_hint_range in parabola_hint_ranges:
+        #     parabola_box_idx = parabola_hint_range[3]
+        #     if parabola_hint_range[0] < self.current_frame < parabola_hint_range[1]:
+        #         dt = (parabola_hint_range[1] - self.current_frame) / self.ref_motion.fps
+        #         exp_com_pos = self.skel.com() + dt * self.skel.com_velocity() + 0.5 * dt * dt * self.world.gravity()
+        #         exp_diff_com_to_contact = self.box_pos[parabola_box_idx] + self.box_height_mean[
+        #             parabola_box_idx] * mm.unitY() / 2. - exp_com_pos
+        #         norm_exp_diff_com_to_contact = np.linalg.norm(exp_diff_com_to_contact)
+        #         self.ref_skel.set_positions(self.ref_motion.get_q(parabola_hint_range[1]))
+        #         pos_diff_ref_com_to_ref_contact = \
+        #             [norm_exp_diff_com_to_contact - np.linalg.norm(
+        #                 self.ref_skel.body(body_name).to_world() - self.ref_skel.com()) for body_name in
+        #              parabola_hint_range[2]]
+        #         self.ref_skel.set_positions(self.ref_motion.get_q(self.current_frame))
+        #         self.ref_skel.set_velocities(self.ref_motion.get_dq(self.current_frame))
+        #         r_par = exp_reward_term(self.w_par, self.exp_par, np.asarray(pos_diff_ref_com_to_ref_contact) / sqrt(
+        #             len(pos_diff_ref_com_to_ref_contact)))
+        #         reward = (1. - self.w_par) * reward + r_par
+        #         break
+
+        #     # height hint
+        #     exp_contact_body_height_diff = []
+        #     if self.lf_contact_start_frame2 - 2 <= self.current_frame < self.lf_contact_start_frame2:
+        #         left_frame = self.lf_contact_start_frame2 - self.current_frame
+        #         exp_contact_body_height_diff.append(
+        #             self.skel.body('h_heel_left').to_world()[1] - self.height_hat_list[
+        #                 1] - 0.0249 - 0.1 * left_frame)
+        #     if len(exp_contact_body_height_diff) > 0:
+        #         r_exp_h = exp_reward_term(self.w_exp_h, self.exp_exp_h,
+        #                                     np.asarray(exp_contact_body_height_diff) / sqrt(
+        #                                         len(exp_contact_body_height_diff)))
+        #         reward = (1. - self.w_exp_h) * reward + r_exp_h
+
+        #     contact_body_height_diff = []
+
+        #     if self.lf_contact_start_frame2 <= self.current_frame <= self.lf_contact_end_frame2:
+        #         contact_body_height_diff.append(max(0., abs(
+        #             self.skel.body('h_heel_left').to_world()[0] - self.box_pos[1][0]) - self.box1_size[0] / 4.))
+        #         contact_body_height_diff.append(
+        #             self.skel.body('h_heel_left').to_world()[1] - self.height_hat_list[1] - 0.0249)
+        #         contact_body_height_diff.append(self.skel.body('h_heel_left').to_world()[2] - self.box_pos[1][2])
+
+        #     if len(contact_body_height_diff) > 0:
+        #         r_h = exp_reward_term(self.w_h, self.exp_h,
+        #                                 np.asarray(contact_body_height_diff) / sqrt(len(contact_body_height_diff)))
+        #         reward = (1. - self.w_h) * reward + r_h
+
+
+
+
         return reward
 
     def is_done(self):
@@ -273,15 +369,29 @@ class SkateDartEnv(gym.Env):
         skel_pelvis_offset[1] = 0.
         self.ref_motion.translate_by_offset(skel_pelvis_offset)
 
-    def reset(self):
+    def reset(self, fromppo):
+        
+        self.rand_height = min(fromppo, 2.0)
+            
         self.world.reset()
-        self.ref_motion.reset_root_trajectory_backflip_a(self.ref_skel)
+        self.ref_motion.reset_root_trajectory_backflip_a(self.ref_skel, self.rand_height)
         self.ref_motion.refine_dqs(self.ref_skel)
         self.continue_from_frame(0)
         self.skel.set_positions(self.ref_motion.get_q(self.current_frame))
         self.skel.set_velocities(np.asarray(self.ref_motion.get_dq(self.current_frame)))
         self.count_frame = 0
         self.is_foot_contact_same = 0
+
+        self.box_pos[0][1] = self.rand_height
+
+        box_q = self.world.skeletons[0].q
+        box_q[9:12] = self.box_pos[0]
+        # box_q[15:18] = self.box_pos[1]
+
+        self.world.skeletons[0].set_positions(box_q)
+        
+        # self.rand_height = int(np.random.randint(70,100)) / 100
+
 
         return self.state()
 

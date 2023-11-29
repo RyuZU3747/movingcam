@@ -1,0 +1,1972 @@
+# 1
+noise : 1.0001
+Avg return : 7.2410
+Elapsed time : 20.57s
+# 2
+noise : 1.0001
+Avg return : 7.6745
+Elapsed time : 42.22s
+# 3
+noise : 0.9993
+Avg return : 8.2789
+Elapsed time : 62.50s
+# 4
+noise : 0.9984
+Avg return : 8.9058
+Elapsed time : 95.75s
+# 5
+noise : 0.9970
+Avg return : 9.4157
+Elapsed time : 160.27s
+# 6
+noise : 0.9954
+Avg return : 9.9087
+Elapsed time : 228.76s
+# 7
+noise : 0.9949
+Avg return : 10.1164
+Elapsed time : 296.22s
+# 8
+noise : 0.9934
+Avg return : 10.4718
+Elapsed time : 336.49s
+# 9
+noise : 0.9923
+Avg return : 10.9033
+Elapsed time : 382.61s
+# 10
+noise : 0.9916
+Avg return : 10.9687
+Elapsed time : 426.28s
+# 11
+noise : 0.9893
+Avg return : 11.3000
+Elapsed time : 471.51s
+# 12
+noise : 0.9890
+Avg return : 11.4910
+Elapsed time : 522.88s
+# 13
+noise : 0.9881
+Avg return : 11.9428
+Elapsed time : 575.44s
+# 14
+noise : 0.9870
+Avg return : 11.9108
+Elapsed time : 626.13s
+# 15
+noise : 0.9864
+Avg return : 12.3270
+Elapsed time : 678.08s
+# 16
+noise : 0.9850
+Avg return : 12.6045
+Elapsed time : 727.13s
+# 17
+noise : 0.9842
+Avg return : 12.8329
+Elapsed time : 768.67s
+# 18
+noise : 0.9833
+Avg return : 13.0314
+Elapsed time : 805.34s
+# 19
+noise : 0.9822
+Avg return : 13.5266
+Elapsed time : 847.74s
+# 20
+noise : 0.9811
+Avg return : 13.6363
+Elapsed time : 887.85s
+# 21
+noise : 0.9797
+Avg return : 13.7764
+Elapsed time : 924.91s
+# 22
+noise : 0.9781
+Avg return : 14.0364
+Elapsed time : 963.61s
+# 23
+noise : 0.9784
+Avg return : 14.8517
+Elapsed time : 1008.54s
+# 24
+noise : 0.9775
+Avg return : 14.8467
+Elapsed time : 1047.41s
+# 25
+noise : 0.9767
+Avg return : 15.2144
+Elapsed time : 1066.67s
+# 26
+noise : 0.9762
+Avg return : 15.8902
+Elapsed time : 1081.30s
+# 27
+noise : 0.9742
+Avg return : 15.8732
+Elapsed time : 1096.93s
+# 28
+noise : 0.9739
+Avg return : 16.1922
+Elapsed time : 1111.75s
+# 29
+noise : 0.9742
+Avg return : 16.7875
+Elapsed time : 1126.43s
+# 30
+noise : 0.9730
+Avg return : 16.9098
+Elapsed time : 1140.64s
+# 31
+noise : 0.9729
+Avg return : 17.6362
+Elapsed time : 1155.06s
+# 32
+noise : 0.9723
+Avg return : 17.4104
+Elapsed time : 1171.18s
+# 33
+noise : 0.9715
+Avg return : 17.7667
+Elapsed time : 1189.61s
+# 34
+noise : 0.9707
+Avg return : 17.9928
+Elapsed time : 1206.14s
+# 35
+noise : 0.9703
+Avg return : 18.3386
+Elapsed time : 1222.50s
+# 36
+noise : 0.9689
+Avg return : 18.9571
+Elapsed time : 1239.50s
+# 37
+noise : 0.9687
+Avg return : 19.5641
+Elapsed time : 1263.35s
+# 38
+noise : 0.9674
+Avg return : 19.9468
+Elapsed time : 1279.81s
+# 39
+noise : 0.9666
+Avg return : 20.7305
+Elapsed time : 1296.54s
+# 40
+noise : 0.9659
+Avg return : 20.1769
+Elapsed time : 1313.58s
+# 41
+noise : 0.9647
+Avg return : 20.7084
+Elapsed time : 1329.45s
+# 42
+noise : 0.9641
+Avg return : 21.2734
+Elapsed time : 1345.77s
+# 43
+noise : 0.9647
+Avg return : 21.1743
+Elapsed time : 1361.46s
+# 44
+noise : 0.9643
+Avg return : 22.0996
+Elapsed time : 1377.46s
+# 45
+noise : 0.9633
+Avg return : 22.3747
+Elapsed time : 1393.42s
+# 46
+noise : 0.9633
+Avg return : 22.6246
+Elapsed time : 1410.07s
+# 47
+noise : 0.9637
+Avg return : 23.0493
+Elapsed time : 1432.25s
+# 48
+noise : 0.9630
+Avg return : 22.7675
+Elapsed time : 1454.94s
+# 49
+noise : 0.9626
+Avg return : 23.0970
+Elapsed time : 1477.57s
+# 50
+noise : 0.9615
+Avg return : 23.5768
+Elapsed time : 1503.42s
+# 51
+noise : 0.9603
+Avg return : 23.7636
+Elapsed time : 1531.93s
+# 52
+noise : 0.9600
+Avg return : 23.7416
+Elapsed time : 1554.61s
+# 53
+noise : 0.9598
+Avg return : 24.1072
+Elapsed time : 1577.35s
+# 54
+noise : 0.9589
+Avg return : 24.0192
+Elapsed time : 1600.32s
+# 55
+noise : 0.9582
+Avg return : 23.8526
+Elapsed time : 1622.48s
+# 56
+noise : 0.9576
+Avg return : 24.0186
+Elapsed time : 1644.60s
+# 57
+noise : 0.9584
+Avg return : 23.6832
+Elapsed time : 1666.64s
+# 58
+noise : 0.9576
+Avg return : 24.3426
+Elapsed time : 1689.78s
+# 59
+noise : 0.9579
+Avg return : 24.6455
+Elapsed time : 1713.38s
+# 60
+noise : 0.9574
+Avg return : 24.4605
+Elapsed time : 1735.74s
+# 61
+noise : 0.9573
+Avg return : 24.4943
+Elapsed time : 1757.88s
+# 62
+noise : 0.9570
+Avg return : 24.9161
+Elapsed time : 1779.87s
+# 63
+noise : 0.9562
+Avg return : 24.8929
+Elapsed time : 1802.05s
+# 64
+noise : 0.9556
+Avg return : 25.3233
+Elapsed time : 1824.26s
+# 65
+noise : 0.9555
+Avg return : 25.4301
+Elapsed time : 1847.48s
+# 66
+noise : 0.9551
+Avg return : 25.4428
+Elapsed time : 1869.55s
+# 67
+noise : 0.9543
+Avg return : 25.5929
+Elapsed time : 1892.31s
+# 68
+noise : 0.9535
+Avg return : 25.8602
+Elapsed time : 1914.98s
+# 69
+noise : 0.9535
+Avg return : 25.6384
+Elapsed time : 1937.73s
+# 70
+noise : 0.9526
+Avg return : 26.0541
+Elapsed time : 1960.28s
+# 71
+noise : 0.9520
+Avg return : 25.9689
+Elapsed time : 1984.25s
+# 72
+noise : 0.9524
+Avg return : 26.3088
+Elapsed time : 2007.64s
+# 73
+noise : 0.9528
+Avg return : 26.4185
+Elapsed time : 2031.05s
+# 74
+noise : 0.9524
+Avg return : 26.8454
+Elapsed time : 2054.74s
+# 75
+noise : 0.9518
+Avg return : 26.8783
+Elapsed time : 2078.44s
+# 76
+noise : 0.9519
+Avg return : 26.9384
+Elapsed time : 2102.15s
+# 77
+noise : 0.9512
+Avg return : 28.0128
+Elapsed time : 2126.61s
+# 78
+noise : 0.9505
+Avg return : 28.0788
+Elapsed time : 2150.47s
+# 79
+noise : 0.9501
+Avg return : 25.9186
+Elapsed time : 2173.09s
+# 80
+noise : 0.9502
+Avg return : 26.4538
+Elapsed time : 2196.17s
+# 81
+noise : 0.9504
+Avg return : 27.1557
+Elapsed time : 2219.29s
+# 82
+noise : 0.9494
+Avg return : 28.0473
+Elapsed time : 2243.51s
+# 83
+noise : 0.9487
+Avg return : 27.7303
+Elapsed time : 2267.50s
+# 84
+noise : 0.9480
+Avg return : 28.0124
+Elapsed time : 2291.39s
+# 85
+noise : 0.9477
+Avg return : 28.3997
+Elapsed time : 2315.29s
+# 86
+noise : 0.9476
+Avg return : 28.4114
+Elapsed time : 2339.79s
+# 87
+noise : 0.9469
+Avg return : 28.9012
+Elapsed time : 2363.87s
+# 88
+noise : 0.9463
+Avg return : 28.3691
+Elapsed time : 2388.89s
+# 89
+noise : 0.9458
+Avg return : 28.5148
+Elapsed time : 2413.09s
+# 90
+noise : 0.9463
+Avg return : 28.6553
+Elapsed time : 2431.44s
+# 91
+noise : 0.9455
+Avg return : 28.4131
+Elapsed time : 2448.91s
+# 92
+noise : 0.9455
+Avg return : 28.6913
+Elapsed time : 2466.82s
+# 93
+noise : 0.9452
+Avg return : 29.0305
+Elapsed time : 2484.76s
+# 94
+noise : 0.9433
+Avg return : 29.0251
+Elapsed time : 2502.89s
+# 95
+noise : 0.9427
+Avg return : 28.9372
+Elapsed time : 2520.59s
+# 96
+noise : 0.9420
+Avg return : 29.2621
+Elapsed time : 2547.17s
+# 97
+noise : 0.9408
+Avg return : 29.2086
+Elapsed time : 2565.50s
+# 98
+noise : 0.9401
+Avg return : 28.8257
+Elapsed time : 2583.67s
+# 99
+noise : 0.9390
+Avg return : 29.2248
+Elapsed time : 2601.90s
+# 100
+noise : 0.9384
+Avg return : 29.2160
+Elapsed time : 2620.14s
+# 101
+noise : 0.9378
+Avg return : 29.2834
+Elapsed time : 2638.36s
+# 102
+noise : 0.9379
+Avg return : 29.6168
+Elapsed time : 2658.78s
+# 103
+noise : 0.9377
+Avg return : 29.5729
+Elapsed time : 2683.43s
+# 104
+noise : 0.9376
+Avg return : 29.6150
+Elapsed time : 2707.88s
+# 105
+noise : 0.9374
+Avg return : 29.4341
+Elapsed time : 2731.91s
+# 106
+noise : 0.9370
+Avg return : 29.3919
+Elapsed time : 2755.85s
+# 107
+noise : 0.9369
+Avg return : 29.7256
+Elapsed time : 2780.36s
+# 108
+noise : 0.9370
+Avg return : 29.7855
+Elapsed time : 2804.85s
+# 109
+noise : 0.9375
+Avg return : 30.0404
+Elapsed time : 2830.23s
+# 110
+noise : 0.9368
+Avg return : 30.0806
+Elapsed time : 2856.54s
+# 111
+noise : 0.9364
+Avg return : 30.0068
+Elapsed time : 2881.46s
+# 112
+noise : 0.9359
+Avg return : 29.7637
+Elapsed time : 2905.66s
+# 113
+noise : 0.9358
+Avg return : 30.0281
+Elapsed time : 2929.74s
+# 114
+noise : 0.9348
+Avg return : 30.1261
+Elapsed time : 2954.77s
+# 115
+noise : 0.9342
+Avg return : 30.2821
+Elapsed time : 2979.54s
+# 116
+noise : 0.9341
+Avg return : 30.3230
+Elapsed time : 3004.12s
+# 117
+noise : 0.9337
+Avg return : 30.3137
+Elapsed time : 3028.04s
+# 118
+noise : 0.9334
+Avg return : 30.0985
+Elapsed time : 3052.33s
+# 119
+noise : 0.9342
+Avg return : 30.0277
+Elapsed time : 3076.38s
+# 120
+noise : 0.9346
+Avg return : 29.8512
+Elapsed time : 3100.66s
+# 121
+noise : 0.9348
+Avg return : 29.0775
+Elapsed time : 3124.19s
+# 122
+noise : 0.9349
+Avg return : 29.6644
+Elapsed time : 3148.08s
+# 123
+noise : 0.9344
+Avg return : 29.9220
+Elapsed time : 3173.47s
+# 124
+noise : 0.9338
+Avg return : 29.8235
+Elapsed time : 3197.96s
+# 125
+noise : 0.9338
+Avg return : 30.4267
+Elapsed time : 3221.83s
+# 126
+noise : 0.9333
+Avg return : 29.8279
+Elapsed time : 3246.67s
+# 127
+noise : 0.9331
+Avg return : 29.9318
+Elapsed time : 3270.92s
+# 128
+noise : 0.9329
+Avg return : 30.4234
+Elapsed time : 3295.47s
+# 129
+noise : 0.9324
+Avg return : 30.1756
+Elapsed time : 3319.73s
+# 130
+noise : 0.9323
+Avg return : 30.2770
+Elapsed time : 3343.65s
+# 131
+noise : 0.9322
+Avg return : 29.7764
+Elapsed time : 3369.99s
+# 132
+noise : 0.9314
+Avg return : 30.0258
+Elapsed time : 3396.17s
+# 133
+noise : 0.9310
+Avg return : 29.9683
+Elapsed time : 3427.03s
+# 134
+noise : 0.9314
+Avg return : 30.1077
+Elapsed time : 3453.04s
+# 135
+noise : 0.9311
+Avg return : 29.8963
+Elapsed time : 3477.04s
+# 136
+noise : 0.9311
+Avg return : 30.1351
+Elapsed time : 3501.04s
+# 137
+noise : 0.9300
+Avg return : 30.0203
+Elapsed time : 3526.03s
+# 138
+noise : 0.9290
+Avg return : 30.1758
+Elapsed time : 3550.06s
+# 139
+noise : 0.9285
+Avg return : 30.1747
+Elapsed time : 3573.77s
+# 140
+noise : 0.9273
+Avg return : 30.3764
+Elapsed time : 3597.10s
+# 141
+noise : 0.9273
+Avg return : 30.3675
+Elapsed time : 3622.50s
+# 142
+noise : 0.9272
+Avg return : 29.9936
+Elapsed time : 3648.52s
+# 143
+noise : 0.9268
+Avg return : 30.4761
+Elapsed time : 3674.30s
+# 144
+noise : 0.9265
+Avg return : 30.1227
+Elapsed time : 3700.06s
+# 145
+noise : 0.9257
+Avg return : 30.4175
+Elapsed time : 3724.62s
+# 146
+noise : 0.9253
+Avg return : 30.1779
+Elapsed time : 3750.84s
+# 147
+noise : 0.9261
+Avg return : 29.8894
+Elapsed time : 3775.72s
+# 148
+noise : 0.9264
+Avg return : 29.4684
+Elapsed time : 3799.55s
+# 149
+noise : 0.9268
+Avg return : 29.8783
+Elapsed time : 3826.08s
+# 150
+noise : 0.9262
+Avg return : 30.0011
+Elapsed time : 3854.26s
+# 151
+noise : 0.9254
+Avg return : 30.1185
+Elapsed time : 3878.64s
+# 152
+noise : 0.9248
+Avg return : 30.1785
+Elapsed time : 3902.24s
+# 153
+noise : 0.9244
+Avg return : 30.3462
+Elapsed time : 3925.95s
+# 154
+noise : 0.9237
+Avg return : 30.7182
+Elapsed time : 3952.24s
+# 155
+noise : 0.9232
+Avg return : 30.5061
+Elapsed time : 3976.57s
+# 156
+noise : 0.9231
+Avg return : 30.8560
+Elapsed time : 3993.82s
+# 157
+noise : 0.9231
+Avg return : 30.3731
+Elapsed time : 4011.15s
+# 158
+noise : 0.9230
+Avg return : 30.2596
+Elapsed time : 4029.31s
+# 159
+noise : 0.9222
+Avg return : 30.7202
+Elapsed time : 4046.86s
+# 160
+noise : 0.9214
+Avg return : 30.5071
+Elapsed time : 4064.43s
+# 161
+noise : 0.9204
+Avg return : 30.7875
+Elapsed time : 4082.06s
+# 162
+noise : 0.9185
+Avg return : 26.9382
+Elapsed time : 4098.56s
+# 163
+noise : 0.9171
+Avg return : 30.7753
+Elapsed time : 4115.82s
+# 164
+noise : 0.9174
+Avg return : 30.8566
+Elapsed time : 4138.30s
+# 165
+noise : 0.9158
+Avg return : 30.9633
+Elapsed time : 4162.35s
+# 166
+noise : 0.9153
+Avg return : 30.7165
+Elapsed time : 4186.13s
+# 167
+noise : 0.9147
+Avg return : 31.1612
+Elapsed time : 4210.49s
+# 168
+noise : 0.9145
+Avg return : 30.5492
+Elapsed time : 4234.43s
+# 169
+noise : 0.9146
+Avg return : 30.8342
+Elapsed time : 4253.44s
+# 170
+noise : 0.9147
+Avg return : 31.1353
+Elapsed time : 4271.04s
+# 171
+noise : 0.9151
+Avg return : 31.1689
+Elapsed time : 4288.49s
+# 172
+noise : 0.9145
+Avg return : 31.1402
+Elapsed time : 4305.97s
+# 173
+noise : 0.9142
+Avg return : 31.2529
+Elapsed time : 4323.32s
+# 174
+noise : 0.9135
+Avg return : 29.5286
+Elapsed time : 4340.57s
+# 175
+noise : 0.9134
+Avg return : 30.2421
+Elapsed time : 4357.92s
+# 176
+noise : 0.9123
+Avg return : 30.9842
+Elapsed time : 4379.25s
+# 177
+noise : 0.9123
+Avg return : 31.0968
+Elapsed time : 4402.12s
+# 178
+noise : 0.9119
+Avg return : 30.8591
+Elapsed time : 4429.75s
+# 179
+noise : 0.9117
+Avg return : 30.0060
+Elapsed time : 4456.16s
+# 180
+noise : 0.9115
+Avg return : 30.3899
+Elapsed time : 4485.15s
+# 181
+noise : 0.9110
+Avg return : 30.8488
+Elapsed time : 4511.19s
+# 182
+noise : 0.9094
+Avg return : 31.1055
+Elapsed time : 4538.68s
+# 183
+noise : 0.9092
+Avg return : 31.3755
+Elapsed time : 4567.92s
+# 184
+noise : 0.9087
+Avg return : 31.1109
+Elapsed time : 4595.16s
+# 185
+noise : 0.9073
+Avg return : 31.4860
+Elapsed time : 4624.06s
+# 186
+noise : 0.9071
+Avg return : 30.9498
+Elapsed time : 4651.67s
+# 187
+noise : 0.9067
+Avg return : 31.0582
+Elapsed time : 4681.24s
+# 188
+noise : 0.9061
+Avg return : 31.1982
+Elapsed time : 4704.99s
+# 189
+noise : 0.9062
+Avg return : 31.4888
+Elapsed time : 4729.96s
+# 190
+noise : 0.9060
+Avg return : 31.2006
+Elapsed time : 4755.70s
+# 191
+noise : 0.9060
+Avg return : 29.7965
+Elapsed time : 4782.65s
+# 192
+noise : 0.9055
+Avg return : 30.8839
+Elapsed time : 4811.25s
+# 193
+noise : 0.9048
+Avg return : 31.1587
+Elapsed time : 4835.08s
+# 194
+noise : 0.9042
+Avg return : 30.7946
+Elapsed time : 4858.12s
+# 195
+noise : 0.9037
+Avg return : 31.0722
+Elapsed time : 4881.04s
+# 196
+noise : 0.9033
+Avg return : 30.9183
+Elapsed time : 4903.77s
+# 197
+noise : 0.9035
+Avg return : 31.1724
+Elapsed time : 4927.05s
+# 198
+noise : 0.9035
+Avg return : 31.1368
+Elapsed time : 4951.24s
+# 199
+noise : 0.9029
+Avg return : 31.6885
+Elapsed time : 4976.00s
+# 200
+noise : 0.9028
+Avg return : 31.6421
+Elapsed time : 5004.47s
+# 201
+noise : 0.9027
+Avg return : 29.7297
+Elapsed time : 5030.73s
+# 202
+noise : 0.9018
+Avg return : 30.8592
+Elapsed time : 5057.54s
+# 203
+noise : 0.9012
+Avg return : 31.7606
+Elapsed time : 5082.34s
+# 204
+noise : 0.9004
+Avg return : 31.9264
+Elapsed time : 5107.04s
+# 205
+noise : 0.9005
+Avg return : 31.6129
+Elapsed time : 5130.78s
+# 206
+noise : 0.9001
+Avg return : 31.7495
+Elapsed time : 5154.63s
+# 207
+noise : 0.8997
+Avg return : 31.6486
+Elapsed time : 5177.96s
+# 208
+noise : 0.8983
+Avg return : 31.8530
+Elapsed time : 5202.72s
+# 209
+noise : 0.8975
+Avg return : 31.5446
+Elapsed time : 5245.09s
+# 210
+noise : 0.8969
+Avg return : 31.8523
+Elapsed time : 5267.46s
+# 211
+noise : 0.8962
+Avg return : 31.6446
+Elapsed time : 5287.11s
+# 212
+noise : 0.8955
+Avg return : 31.6441
+Elapsed time : 5307.25s
+# 213
+noise : 0.8954
+Avg return : 31.7203
+Elapsed time : 5326.59s
+# 214
+noise : 0.8951
+Avg return : 31.7734
+Elapsed time : 5345.41s
+# 215
+noise : 0.8949
+Avg return : 31.7814
+Elapsed time : 5364.09s
+# 216
+noise : 0.8942
+Avg return : 31.4082
+Elapsed time : 5383.81s
+# 217
+noise : 0.8943
+Avg return : 31.9380
+Elapsed time : 5401.35s
+# 218
+noise : 0.8935
+Avg return : 31.6145
+Elapsed time : 5419.17s
+# 219
+noise : 0.8933
+Avg return : 31.3476
+Elapsed time : 5436.66s
+# 220
+noise : 0.8938
+Avg return : 30.9078
+Elapsed time : 5454.07s
+# 221
+noise : 0.8927
+Avg return : 31.6968
+Elapsed time : 5471.93s
+# 222
+noise : 0.8928
+Avg return : 31.4898
+Elapsed time : 5489.44s
+# 223
+noise : 0.8929
+Avg return : 31.8276
+Elapsed time : 5513.30s
+# 224
+noise : 0.8930
+Avg return : 31.2786
+Elapsed time : 5535.76s
+# 225
+noise : 0.8925
+Avg return : 31.3637
+Elapsed time : 5553.06s
+# 226
+noise : 0.8923
+Avg return : 31.6038
+Elapsed time : 5570.28s
+# 227
+noise : 0.8919
+Avg return : 31.6979
+Elapsed time : 5588.13s
+# 228
+noise : 0.8914
+Avg return : 31.5139
+Elapsed time : 5605.66s
+# 229
+noise : 0.8905
+Avg return : 31.6868
+Elapsed time : 5634.47s
+# 230
+noise : 0.8902
+Avg return : 31.7470
+Elapsed time : 5659.92s
+# 231
+noise : 0.8899
+Avg return : 31.7001
+Elapsed time : 5678.50s
+# 232
+noise : 0.8888
+Avg return : 31.9332
+Elapsed time : 5697.13s
+# 233
+noise : 0.8885
+Avg return : 31.8604
+Elapsed time : 5716.29s
+# 234
+noise : 0.8880
+Avg return : 31.8374
+Elapsed time : 5735.31s
+# 235
+noise : 0.8875
+Avg return : 30.9818
+Elapsed time : 5754.12s
+# 236
+noise : 0.8873
+Avg return : 31.0884
+Elapsed time : 5772.57s
+# 237
+noise : 0.8878
+Avg return : 31.7689
+Elapsed time : 5790.44s
+# 238
+noise : 0.8875
+Avg return : 32.0442
+Elapsed time : 5808.32s
+# 239
+noise : 0.8868
+Avg return : 31.8428
+Elapsed time : 5826.27s
+# 240
+noise : 0.8863
+Avg return : 31.9490
+Elapsed time : 5844.18s
+# 241
+noise : 0.8868
+Avg return : 31.9217
+Elapsed time : 5861.74s
+# 242
+noise : 0.8870
+Avg return : 32.3938
+Elapsed time : 5879.65s
+# 243
+noise : 0.8867
+Avg return : 31.9811
+Elapsed time : 5897.78s
+# 244
+noise : 0.8873
+Avg return : 32.3506
+Elapsed time : 5915.07s
+# 245
+noise : 0.8869
+Avg return : 32.1420
+Elapsed time : 5933.04s
+# 246
+noise : 0.8867
+Avg return : 32.1611
+Elapsed time : 5951.73s
+# 247
+noise : 0.8866
+Avg return : 32.2456
+Elapsed time : 5975.84s
+# 248
+noise : 0.8868
+Avg return : 31.8689
+Elapsed time : 5993.83s
+# 249
+noise : 0.8862
+Avg return : 31.9355
+Elapsed time : 6011.78s
+# 250
+noise : 0.8856
+Avg return : 31.8815
+Elapsed time : 6029.80s
+# 251
+noise : 0.8857
+Avg return : 32.3158
+Elapsed time : 6054.33s
+# 252
+noise : 0.8851
+Avg return : 32.2632
+Elapsed time : 6075.33s
+# 253
+noise : 0.8857
+Avg return : 32.0974
+Elapsed time : 6100.75s
+# 254
+noise : 0.8855
+Avg return : 32.3116
+Elapsed time : 6132.75s
+# 255
+noise : 0.8841
+Avg return : 32.1941
+Elapsed time : 6170.74s
+# 256
+noise : 0.8840
+Avg return : 31.9111
+Elapsed time : 6202.38s
+# 257
+noise : 0.8839
+Avg return : 32.1348
+Elapsed time : 6227.92s
+# 258
+noise : 0.8836
+Avg return : 31.9439
+Elapsed time : 6249.60s
+# 259
+noise : 0.8831
+Avg return : 32.3834
+Elapsed time : 6272.16s
+# 260
+noise : 0.8824
+Avg return : 32.5605
+Elapsed time : 6301.94s
+# 261
+noise : 0.8829
+Avg return : 32.0275
+Elapsed time : 6330.58s
+# 262
+noise : 0.8823
+Avg return : 32.5341
+Elapsed time : 6359.08s
+# 263
+noise : 0.8820
+Avg return : 32.4642
+Elapsed time : 6386.92s
+# 264
+noise : 0.8821
+Avg return : 31.4900
+Elapsed time : 6416.25s
+# 265
+noise : 0.8817
+Avg return : 30.6971
+Elapsed time : 6449.62s
+# 266
+noise : 0.8816
+Avg return : 32.0680
+Elapsed time : 6481.95s
+# 267
+noise : 0.8803
+Avg return : 32.2947
+Elapsed time : 6514.50s
+# 268
+noise : 0.8806
+Avg return : 32.2476
+Elapsed time : 6545.92s
+# 269
+noise : 0.8801
+Avg return : 32.1310
+Elapsed time : 6577.17s
+# 270
+noise : 0.8786
+Avg return : 32.4738
+Elapsed time : 6604.84s
+# 271
+noise : 0.8778
+Avg return : 32.3496
+Elapsed time : 6634.40s
+# 272
+noise : 0.8768
+Avg return : 31.8197
+Elapsed time : 6666.43s
+# 273
+noise : 0.8761
+Avg return : 31.8812
+Elapsed time : 6700.14s
+# 274
+noise : 0.8771
+Avg return : 32.3651
+Elapsed time : 6735.25s
+# 275
+noise : 0.8767
+Avg return : 32.3515
+Elapsed time : 6769.59s
+# 276
+noise : 0.8760
+Avg return : 32.5580
+Elapsed time : 6804.37s
+# 277
+noise : 0.8760
+Avg return : 32.3201
+Elapsed time : 6834.65s
+# 278
+noise : 0.8755
+Avg return : 31.1777
+Elapsed time : 6863.00s
+# 279
+noise : 0.8748
+Avg return : 32.0293
+Elapsed time : 6893.81s
+# 280
+noise : 0.8754
+Avg return : 32.0351
+Elapsed time : 6921.68s
+# 281
+noise : 0.8749
+Avg return : 32.3249
+Elapsed time : 6953.34s
+# 282
+noise : 0.8747
+Avg return : 32.3992
+Elapsed time : 6981.86s
+# 283
+noise : 0.8743
+Avg return : 32.4551
+Elapsed time : 7011.84s
+# 284
+noise : 0.8741
+Avg return : 32.3695
+Elapsed time : 7041.33s
+# 285
+noise : 0.8737
+Avg return : 32.1083
+Elapsed time : 7067.49s
+# 286
+noise : 0.8728
+Avg return : 32.5399
+Elapsed time : 7098.53s
+# 287
+noise : 0.8720
+Avg return : 32.6949
+Elapsed time : 7127.39s
+# 288
+noise : 0.8722
+Avg return : 32.4742
+Elapsed time : 7153.80s
+# 289
+noise : 0.8721
+Avg return : 32.6367
+Elapsed time : 7180.61s
+# 290
+noise : 0.8715
+Avg return : 32.6828
+Elapsed time : 7206.99s
+# 291
+noise : 0.8707
+Avg return : 32.8501
+Elapsed time : 7234.29s
+# 292
+noise : 0.8700
+Avg return : 32.8088
+Elapsed time : 7262.23s
+# 293
+noise : 0.8696
+Avg return : 32.7356
+Elapsed time : 7289.08s
+# 294
+noise : 0.8688
+Avg return : 32.3856
+Elapsed time : 7315.91s
+# 295
+noise : 0.8682
+Avg return : 32.6229
+Elapsed time : 7343.27s
+# 296
+noise : 0.8679
+Avg return : 32.6050
+Elapsed time : 7370.82s
+# 297
+noise : 0.8681
+Avg return : 32.7144
+Elapsed time : 7397.93s
+# 298
+noise : 0.8683
+Avg return : 32.6662
+Elapsed time : 7425.55s
+# 299
+noise : 0.8686
+Avg return : 32.7380
+Elapsed time : 7454.80s
+# 300
+noise : 0.8677
+Avg return : 32.4637
+Elapsed time : 7483.25s
+# 301
+noise : 0.8673
+Avg return : 32.7197
+Elapsed time : 7511.35s
+# 302
+noise : 0.8674
+Avg return : 32.2655
+Elapsed time : 7538.35s
+# 303
+noise : 0.8668
+Avg return : 32.7963
+Elapsed time : 7566.92s
+# 304
+noise : 0.8668
+Avg return : 32.5168
+Elapsed time : 7595.72s
+# 305
+noise : 0.8661
+Avg return : 32.6044
+Elapsed time : 7624.54s
+# 306
+noise : 0.8653
+Avg return : 32.8728
+Elapsed time : 7653.70s
+# 307
+noise : 0.8644
+Avg return : 32.1776
+Elapsed time : 7681.03s
+# 308
+noise : 0.8638
+Avg return : 32.8016
+Elapsed time : 7709.00s
+# 309
+noise : 0.8633
+Avg return : 32.4926
+Elapsed time : 7736.50s
+# 310
+noise : 0.8637
+Avg return : 32.5702
+Elapsed time : 7761.46s
+# 311
+noise : 0.8631
+Avg return : 27.9686
+Elapsed time : 7785.51s
+# 312
+noise : 0.8627
+Avg return : 24.0936
+Elapsed time : 7807.15s
+# 313
+noise : 0.8627
+Avg return : 25.6181
+Elapsed time : 7830.30s
+# 314
+noise : 0.8628
+Avg return : 28.1367
+Elapsed time : 7854.64s
+# 315
+noise : 0.8629
+Avg return : 29.8859
+Elapsed time : 7879.23s
+# 316
+noise : 0.8632
+Avg return : 31.4924
+Elapsed time : 7904.17s
+# 317
+noise : 0.8621
+Avg return : 32.3119
+Elapsed time : 7929.86s
+# 318
+noise : 0.8616
+Avg return : 32.6365
+Elapsed time : 7956.33s
+# 319
+noise : 0.8611
+Avg return : 32.7824
+Elapsed time : 7981.67s
+# 320
+noise : 0.8611
+Avg return : 32.4274
+Elapsed time : 8008.57s
+# 321
+noise : 0.8606
+Avg return : 32.8423
+Elapsed time : 8036.85s
+# 322
+noise : 0.8605
+Avg return : 32.6819
+Elapsed time : 8062.74s
+# 323
+noise : 0.8603
+Avg return : 32.9059
+Elapsed time : 8089.74s
+# 324
+noise : 0.8603
+Avg return : 32.8741
+Elapsed time : 8120.13s
+# 325
+noise : 0.8600
+Avg return : 32.6951
+Elapsed time : 8150.48s
+# 326
+noise : 0.8592
+Avg return : 33.0578
+Elapsed time : 8182.17s
+# 327
+noise : 0.8590
+Avg return : 33.1354
+Elapsed time : 8211.84s
+# 328
+noise : 0.8586
+Avg return : 31.9891
+Elapsed time : 8240.85s
+# 329
+noise : 0.8571
+Avg return : 33.0309
+Elapsed time : 8267.05s
+# 330
+noise : 0.8566
+Avg return : 33.0454
+Elapsed time : 8293.27s
+# 331
+noise : 0.8562
+Avg return : 32.7085
+Elapsed time : 8319.02s
+# 332
+noise : 0.8554
+Avg return : 33.1885
+Elapsed time : 8344.18s
+# 333
+noise : 0.8550
+Avg return : 32.8519
+Elapsed time : 8369.99s
+# 334
+noise : 0.8545
+Avg return : 33.0023
+Elapsed time : 8394.97s
+# 335
+noise : 0.8545
+Avg return : 32.9106
+Elapsed time : 8419.67s
+# 336
+noise : 0.8546
+Avg return : 33.1154
+Elapsed time : 8442.98s
+# 337
+noise : 0.8541
+Avg return : 32.8930
+Elapsed time : 8466.11s
+# 338
+noise : 0.8530
+Avg return : 32.8302
+Elapsed time : 8488.30s
+# 339
+noise : 0.8530
+Avg return : 33.2195
+Elapsed time : 8511.05s
+# 340
+noise : 0.8526
+Avg return : 33.0900
+Elapsed time : 8534.11s
+# 341
+noise : 0.8523
+Avg return : 33.1434
+Elapsed time : 8556.71s
+# 342
+noise : 0.8519
+Avg return : 33.1408
+Elapsed time : 8580.33s
+# 343
+noise : 0.8513
+Avg return : 32.6883
+Elapsed time : 8604.18s
+# 344
+noise : 0.8513
+Avg return : 33.0879
+Elapsed time : 8628.21s
+# 345
+noise : 0.8505
+Avg return : 33.1267
+Elapsed time : 8651.60s
+# 346
+noise : 0.8505
+Avg return : 32.9684
+Elapsed time : 8674.84s
+# 347
+noise : 0.8501
+Avg return : 33.0775
+Elapsed time : 8698.49s
+# 348
+noise : 0.8497
+Avg return : 33.1435
+Elapsed time : 8721.11s
+# 349
+noise : 0.8495
+Avg return : 32.7305
+Elapsed time : 8744.34s
+# 350
+noise : 0.8491
+Avg return : 32.9793
+Elapsed time : 8768.74s
+# 351
+noise : 0.8493
+Avg return : 33.3129
+Elapsed time : 8793.14s
+# 352
+noise : 0.8501
+Avg return : 33.4089
+Elapsed time : 8817.05s
+# 353
+noise : 0.8493
+Avg return : 33.4181
+Elapsed time : 8842.02s
+# 354
+noise : 0.8490
+Avg return : 33.1950
+Elapsed time : 8865.96s
+# 355
+noise : 0.8489
+Avg return : 33.4225
+Elapsed time : 8889.12s
+# 356
+noise : 0.8488
+Avg return : 33.1137
+Elapsed time : 8913.11s
+# 357
+noise : 0.8483
+Avg return : 33.2682
+Elapsed time : 8936.57s
+# 358
+noise : 0.8484
+Avg return : 33.1480
+Elapsed time : 8961.82s
+# 359
+noise : 0.8482
+Avg return : 33.4853
+Elapsed time : 8988.76s
+# 360
+noise : 0.8480
+Avg return : 33.3272
+Elapsed time : 9013.91s
+# 361
+noise : 0.8481
+Avg return : 33.5422
+Elapsed time : 9037.68s
+# 362
+noise : 0.8479
+Avg return : 33.1824
+Elapsed time : 9062.35s
+# 363
+noise : 0.8475
+Avg return : 33.2665
+Elapsed time : 9087.34s
+# 364
+noise : 0.8470
+Avg return : 33.2542
+Elapsed time : 9110.99s
+# 365
+noise : 0.8466
+Avg return : 33.5309
+Elapsed time : 9134.93s
+# 366
+noise : 0.8460
+Avg return : 33.5196
+Elapsed time : 9157.99s
+# 367
+noise : 0.8448
+Avg return : 33.5804
+Elapsed time : 9182.02s
+# 368
+noise : 0.8448
+Avg return : 33.6533
+Elapsed time : 9206.66s
+# 369
+noise : 0.8442
+Avg return : 33.7181
+Elapsed time : 9230.92s
+# 370
+noise : 0.8444
+Avg return : 33.7680
+Elapsed time : 9255.01s
+# 371
+noise : 0.8446
+Avg return : 33.7775
+Elapsed time : 9279.80s
+# 372
+noise : 0.8439
+Avg return : 33.6681
+Elapsed time : 9303.85s
+# 373
+noise : 0.8441
+Avg return : 33.7581
+Elapsed time : 9328.01s
+# 374
+noise : 0.8431
+Avg return : 33.7187
+Elapsed time : 9352.08s
+# 375
+noise : 0.8426
+Avg return : 33.6716
+Elapsed time : 9376.65s
+# 376
+noise : 0.8420
+Avg return : 32.3285
+Elapsed time : 9400.83s
+# 377
+noise : 0.8421
+Avg return : 32.7456
+Elapsed time : 9425.89s
+# 378
+noise : 0.8421
+Avg return : 33.2691
+Elapsed time : 9450.00s
+# 379
+noise : 0.8420
+Avg return : 33.6841
+Elapsed time : 9474.72s
+# 380
+noise : 0.8414
+Avg return : 33.7735
+Elapsed time : 9498.93s
+# 381
+noise : 0.8409
+Avg return : 33.6671
+Elapsed time : 9523.44s
+# 382
+noise : 0.8412
+Avg return : 33.5643
+Elapsed time : 9547.30s
+# 383
+noise : 0.8407
+Avg return : 33.8738
+Elapsed time : 9571.09s
+# 384
+noise : 0.8402
+Avg return : 33.6876
+Elapsed time : 9596.75s
+# 385
+noise : 0.8395
+Avg return : 33.7769
+Elapsed time : 9620.75s
+# 386
+noise : 0.8381
+Avg return : 33.7223
+Elapsed time : 9644.26s
+# 387
+noise : 0.8381
+Avg return : 33.8629
+Elapsed time : 9667.60s
+# 388
+noise : 0.8376
+Avg return : 33.6195
+Elapsed time : 9690.35s
+# 389
+noise : 0.8373
+Avg return : 33.7194
+Elapsed time : 9714.33s
+# 390
+noise : 0.8367
+Avg return : 33.6369
+Elapsed time : 9737.60s
+# 391
+noise : 0.8364
+Avg return : 33.5983
+Elapsed time : 9761.62s
+# 392
+noise : 0.8362
+Avg return : 33.7162
+Elapsed time : 9785.28s
+# 393
+noise : 0.8354
+Avg return : 33.6794
+Elapsed time : 9809.05s
+# 394
+noise : 0.8345
+Avg return : 33.6872
+Elapsed time : 9832.60s
+# 395
+noise : 0.8339
+Avg return : 33.7712
+Elapsed time : 9855.79s
+# 396
+noise : 0.8331
+Avg return : 33.8532
+Elapsed time : 9879.06s
+# 397
+noise : 0.8324
+Avg return : 33.9777
+Elapsed time : 9903.01s
+# 398
+noise : 0.8321
+Avg return : 33.8761
+Elapsed time : 9928.40s
+# 399
+noise : 0.8323
+Avg return : 33.9728
+Elapsed time : 9951.76s
+# 400
+noise : 0.8326
+Avg return : 31.3540
+Elapsed time : 9974.65s
+# 401
+noise : 0.8323
+Avg return : 32.9705
+Elapsed time : 9999.69s
+# 402
+noise : 0.8325
+Avg return : 33.4288
+Elapsed time : 10026.09s
+# 403
+noise : 0.8327
+Avg return : 33.8496
+Elapsed time : 10049.55s
+# 404
+noise : 0.8329
+Avg return : 33.6547
+Elapsed time : 10073.16s
+# 405
+noise : 0.8325
+Avg return : 33.5852
+Elapsed time : 10097.73s
+# 406
+noise : 0.8318
+Avg return : 33.7553
+Elapsed time : 10125.49s
+# 407
+noise : 0.8314
+Avg return : 33.7326
+Elapsed time : 10149.19s
+# 408
+noise : 0.8311
+Avg return : 33.8148
+Elapsed time : 10172.33s
+# 409
+noise : 0.8302
+Avg return : 33.9729
+Elapsed time : 10195.19s
+# 410
+noise : 0.8300
+Avg return : 33.7150
+Elapsed time : 10217.67s
+# 411
+noise : 0.8302
+Avg return : 33.9829
+Elapsed time : 10240.51s
+# 412
+noise : 0.8291
+Avg return : 33.7921
+Elapsed time : 10263.28s
+# 413
+noise : 0.8294
+Avg return : 33.9718
+Elapsed time : 10285.67s
+# 414
+noise : 0.8296
+Avg return : 34.1331
+Elapsed time : 10308.35s
+# 415
+noise : 0.8296
+Avg return : 33.7239
+Elapsed time : 10331.65s
+# 416
+noise : 0.8286
+Avg return : 30.8441
+Elapsed time : 10353.96s
+# 417
+noise : 0.8287
+Avg return : 33.5776
+Elapsed time : 10376.98s
+# 418
+noise : 0.8275
+Avg return : 33.8560
+Elapsed time : 10399.81s
+# 419
+noise : 0.8271
+Avg return : 33.7630
+Elapsed time : 10422.86s
+# 420
+noise : 0.8266
+Avg return : 33.7822
+Elapsed time : 10446.35s
+# 421
+noise : 0.8257
+Avg return : 33.9843
+Elapsed time : 10469.89s
+# 422
+noise : 0.8255
+Avg return : 33.7801
+Elapsed time : 10492.98s
+# 423
+noise : 0.8259
+Avg return : 33.2680
+Elapsed time : 10516.15s
+# 424
+noise : 0.8250
+Avg return : 33.6559
+Elapsed time : 10539.23s
+# 425
+noise : 0.8242
+Avg return : 33.9006
+Elapsed time : 10562.31s
+# 426
+noise : 0.8235
+Avg return : 33.7178
+Elapsed time : 10585.61s
+# 427
+noise : 0.8222
+Avg return : 33.6195
+Elapsed time : 10608.53s
+# 428
+noise : 0.8221
+Avg return : 33.9085
+Elapsed time : 10631.05s
+# 429
+noise : 0.8221
+Avg return : 33.9280
+Elapsed time : 10653.05s
+# 430
+noise : 0.8222
+Avg return : 33.8060
+Elapsed time : 10675.73s
+# 431
+noise : 0.8219
+Avg return : 33.7793
+Elapsed time : 10698.34s
+# 432
+noise : 0.8214
+Avg return : 33.8478
+Elapsed time : 10721.11s
+# 433
+noise : 0.8207
+Avg return : 33.8266
+Elapsed time : 10744.05s
+# 434
+noise : 0.8203
+Avg return : 33.8888
+Elapsed time : 10767.23s
+# 435
+noise : 0.8198
+Avg return : 33.9806
+Elapsed time : 10790.31s
+# 436
+noise : 0.8192
+Avg return : 33.9904
+Elapsed time : 10812.80s
+# 437
+noise : 0.8193
+Avg return : 33.7866
+Elapsed time : 10835.72s
+# 438
+noise : 0.8199
+Avg return : 33.7074
+Elapsed time : 10858.94s
+# 439
+noise : 0.8200
+Avg return : 33.1918
+Elapsed time : 10881.48s
+# 440
+noise : 0.8197
+Avg return : 33.6016
+Elapsed time : 10903.72s
+# 441
+noise : 0.8196
+Avg return : 33.7973
+Elapsed time : 10926.24s
+# 442
+noise : 0.8190
+Avg return : 33.5842
+Elapsed time : 10949.23s
+# 443
+noise : 0.8183
+Avg return : 33.8355
+Elapsed time : 10972.76s
+# 444
+noise : 0.8181
+Avg return : 33.3928
+Elapsed time : 10995.68s
+# 445
+noise : 0.8169
+Avg return : 33.9692
+Elapsed time : 11019.07s
+# 446
+noise : 0.8164
+Avg return : 33.9528
+Elapsed time : 11042.22s
+# 447
+noise : 0.8161
+Avg return : 33.7622
+Elapsed time : 11065.46s
+# 448
+noise : 0.8157
+Avg return : 34.0671
+Elapsed time : 11088.09s
+# 449
+noise : 0.8148
+Avg return : 33.8954
+Elapsed time : 11113.50s
+# 450
+noise : 0.8146
+Avg return : 33.8476
+Elapsed time : 11136.63s
+# 451
+noise : 0.8144
+Avg return : 33.8889
+Elapsed time : 11159.48s
+# 452
+noise : 0.8138
+Avg return : 33.9509
+Elapsed time : 11182.28s
+# 453
+noise : 0.8133
+Avg return : 33.8773
+Elapsed time : 11204.74s
+# 454
+noise : 0.8127
+Avg return : 33.7497
+Elapsed time : 11226.71s
+# 455
+noise : 0.8117
+Avg return : 33.9670
+Elapsed time : 11249.04s
+# 456
+noise : 0.8115
+Avg return : 33.8693
+Elapsed time : 11274.81s
+# 457
+noise : 0.8108
+Avg return : 34.0192
+Elapsed time : 11299.73s
+# 458
+noise : 0.8104
+Avg return : 34.0209
+Elapsed time : 11323.21s
+# 459
+noise : 0.8094
+Avg return : 34.1768
+Elapsed time : 11345.98s
+# 460
+noise : 0.8085
+Avg return : 34.2036
+Elapsed time : 11369.06s
+# 461
+noise : 0.8073
+Avg return : 34.2748
+Elapsed time : 11391.27s
+# 462
+noise : 0.8073
+Avg return : 34.2259
+Elapsed time : 11413.78s
+# 463
+noise : 0.8069
+Avg return : 34.0590
+Elapsed time : 11435.93s
+# 464
+noise : 0.8064
+Avg return : 34.2107
+Elapsed time : 11458.62s
+# 465
+noise : 0.8055
+Avg return : 34.0705
+Elapsed time : 11480.83s
+# 466
+noise : 0.8058
+Avg return : 34.2104
+Elapsed time : 11502.70s
+# 467
+noise : 0.8051
+Avg return : 34.2140
+Elapsed time : 11525.60s
+# 468
+noise : 0.8055
+Avg return : 34.0240
+Elapsed time : 11548.54s
+# 469
+noise : 0.8055
+Avg return : 34.0045
+Elapsed time : 11571.38s
+# 470
+noise : 0.8051
+Avg return : 34.1721
+Elapsed time : 11594.14s
+# 471
+noise : 0.8043
+Avg return : 34.2078
+Elapsed time : 11618.24s
+# 472
+noise : 0.8038
+Avg return : 34.2011
+Elapsed time : 11641.25s
+# 473
+noise : 0.8033
+Avg return : 34.1662
+Elapsed time : 11664.19s
+# 474
+noise : 0.8026
+Avg return : 34.1954
+Elapsed time : 11686.73s
+# 475
+noise : 0.8024
+Avg return : 34.1174
+Elapsed time : 11709.93s
+# 476
+noise : 0.8017
+Avg return : 34.3159
+Elapsed time : 11733.06s
+# 477
+noise : 0.8014
+Avg return : 33.7866
+Elapsed time : 11756.24s
+# 478
+noise : 0.8015
+Avg return : 33.7679
+Elapsed time : 11779.10s
+# 479
+noise : 0.8014
+Avg return : 33.8944
+Elapsed time : 11802.70s
+# 480
+noise : 0.8008
+Avg return : 32.4701
+Elapsed time : 11826.01s
+# 481
+noise : 0.8010
+Avg return : 33.8421
+Elapsed time : 11850.09s
+# 482
+noise : 0.8007
+Avg return : 34.0014
+Elapsed time : 11871.78s
+# 483
+noise : 0.8007
+Avg return : 33.8061
+Elapsed time : 11894.21s
+# 484
+noise : 0.8001
+Avg return : 34.0326
+Elapsed time : 11917.09s
+# 485
+noise : 0.8001
+Avg return : 33.9869
+Elapsed time : 11940.47s
+# 486
+noise : 0.7993
+Avg return : 34.4243
+Elapsed time : 11968.06s
+# 487
+noise : 0.7989
+Avg return : 34.4058
+Elapsed time : 11992.43s
+# 488
+noise : 0.7986
+Avg return : 34.0582
+Elapsed time : 12013.79s
+# 489
+noise : 0.7984
+Avg return : 34.3857
+Elapsed time : 12036.66s
+# 490
+noise : 0.7977
+Avg return : 34.1719
+Elapsed time : 12058.93s
+# 491
+noise : 0.7974
+Avg return : 34.3782
+Elapsed time : 12081.28s
+# 492
+noise : 0.7971
+Avg return : 34.4107
+Elapsed time : 12100.49s
+# 493
+noise : 0.7973
+Avg return : 34.4107
+Elapsed time : 12117.69s

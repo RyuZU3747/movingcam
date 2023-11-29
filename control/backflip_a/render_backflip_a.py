@@ -18,12 +18,11 @@ def main():
     env_name = 'backflip_a'
     ppo = PPO(env_name, 0, visualize_only=True)
     if not MOTION_ONLY:
-        ppo.LoadModel('backflip_a_model/' + 'max.pt')
-        # ppo.LoadModel('backflip_a_christmas_model_202308061629/' + 'max.pt')
+        ppo.LoadModel('backflip_a_curriculum_model_202310060029/' + 'max.pt')
         ppo.model.eval()
 
     ppo.env.flag_rsi(False)
-    ppo.env.reset()
+    ppo.env.reset(2.0)
     ppo.env.ref_skel.set_positions(ppo.env.ref_motion.get_q(ppo.env.current_frame))
 
     # for bvh file
